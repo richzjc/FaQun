@@ -1,1 +1,2 @@
-# FaQun
+基于AccesibilityService实现无障碍功能
+自动化的向微信群聊发送聊天消息
