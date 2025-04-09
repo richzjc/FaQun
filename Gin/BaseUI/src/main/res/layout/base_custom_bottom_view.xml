@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/customBottomLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/margin_dp45"
+    android:background="@color/day_mode_background_color1_ffffff"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0.5"
+        android:background="@color/day_mode_divide_line_color_e6e6e6"/>
+
+    <com.wallstreetcn.baseui.customView.IconView
+        android:id="@+id/iconBack"
+        android:layout_width="@dimen/margin_dp45"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/icon_back"
+        android:textColor="@color/day_mode_text_color1_333333"
+        android:textSize="@dimen/txt_size22"/>
+
+</RelativeLayout>

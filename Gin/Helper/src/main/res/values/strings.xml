@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Helper</string>
+
+    <string name="default_channel_id" translatable="false">wscn1</string>
+
+    <string name="base_app_host" translatable="false">wallstreetcn.com</string>
+
+    <string name="replaced_router_host" translatable="false">wallstreetcn.com</string>
+</resources>

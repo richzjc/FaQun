@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="fullScreenWeb" parent="BaseAppTheme">
+        <item name="android:windowLightStatusBar">@bool/statusBarTextColor</item>
+        <item name="colorPrimary">@color/day_mode_toolbar_color</item>
+        <item name="colorPrimaryDark">#40454a</item>
+        <item name="colorAccent">@color/day_mode_theme_color_1478f0</item>
+    </style>
+
+    <style name="TranslucentTheme" parent="BaseAppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/day_mode_toolbar_color</item>
+        <item name="colorPrimaryDark">@color/day_mode_toolbar_color</item>
+        <item name="colorAccent">@color/day_mode_theme_color_1478f0</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+</resources>

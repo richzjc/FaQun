@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/day_mode_background_color1_ffffff"
+    >
+
+    <com.wallstreetcn.baseui.widget.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleText="批量发送"
+        app:statusBarPadding="true"
+        app:rightBtn2Text="返回修改"
+        app:rightBtn2Color="@color/day_mode_theme_color_1478f0"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0.5"
+        android:background="@color/day_mode_divide_line_color_e6e6e6"
+        />
+
+    <com.wallstreetcn.baseui.widget.OpenCloseTextView
+        android:id="@+id/sendText"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="@dimen/margin_dp10"
+        android:padding="@dimen/margin_dp10"
+        android:textSize="@dimen/text_size_16"
+        android:background="@drawable/sendtext_drawable"
+        android:lineSpacingExtra="@dimen/margin_dp5"
+        android:textColor="@color/day_mode_text_color1_333333"
+        app:etv_EnableToggle="true"
+        app:etv_MaxLinesOnShrink="1"
+        app:etv_ToExpandHintColor="@color/day_mode_text_color1_333333"
+        app:etv_ToShrinkHintColor="@color/day_mode_text_color1_333333"
+        />
+
+    <com.wallstreetcn.global.customView.SettingItemView
+        android:id="@+id/send_targe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftText="发送对象"
+        app:type="normal">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_0.5"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/margin_dp15"
+            android:background="@color/day_mode_divide_line_color_e6e6e6" />
+
+    </com.wallstreetcn.global.customView.SettingItemView>
+
+    <com.wallstreetcn.global.customView.SettingItemView
+        android:id="@+id/time_gap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftText="发送间隔"
+        app:type="normal">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_0.5"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/margin_dp15"
+            android:background="@color/day_mode_divide_line_color_e6e6e6" />
+
+    </com.wallstreetcn.global.customView.SettingItemView>
+
+    <com.wallstreetcn.global.customView.SettingItemView
+        android:id="@+id/open_float_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftText="开启悬浮窗权限"
+        app:type="normal">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_0.5"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/margin_dp15"
+            android:background="@color/day_mode_divide_line_color_e6e6e6" />
+
+    </com.wallstreetcn.global.customView.SettingItemView>
+
+    <com.wallstreetcn.global.customView.SettingItemView
+        android:id="@+id/open_help_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftText="开启辅助功能权限"
+        app:type="normal">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_0.5"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/margin_dp15"
+            android:background="@color/day_mode_divide_line_color_e6e6e6" />
+
+    </com.wallstreetcn.global.customView.SettingItemView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0.5"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/margin_dp15"
+        android:background="@color/day_mode_divide_line_color_e6e6e6" />
+
+    <TextView
+        android:id="@+id/send_to_chat"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_dp40"
+        android:text="发送到群聊"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16"
+        android:layout_marginLeft="@dimen/margin_dp15"
+        android:layout_marginRight="@dimen/margin_dp15"
+        android:layout_marginTop="@dimen/margin_dp15"
+        android:layout_marginBottom="@dimen/margin_dp15"
+        android:background="@drawable/sendtochat_drawable"
+        />
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/day_mode_background_color1_ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.wallstreetcn.baseui.widget.TitleBar
+            android:id="@+id/titleBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:iconBackVisible="true"
+            app:isMarquee="false"
+            app:statusBarPadding="true" />
+
+        <com.wallstreetcn.baseui.customView.IconView
+            android:id="@+id/deleteIv"
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:layout_alignBottom="@+id/titleBar"
+            android:layout_marginLeft="@dimen/margin_dp45"
+            android:gravity="center"
+            android:text="@string/icon_delete"
+            android:textColor="@color/day_mode_text_color1_333333"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/titleBarLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0.5"
+        android:layout_below="@+id/titleLayout"
+        android:background="@color/day_mode_divide_line_color_e6e6e6" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleBarLine">
+
+        <FrameLayout
+            android:id="@+id/fragment_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/base_bg_dialog_coupon_copied"
+    android:orientation="vertical">
+
+    <com.wallstreetcn.baseui.widget.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_dp20"
+        android:gravity="center_horizontal"
+        android:text="@string/base_copied_coupons_success"
+        android:textColor="@color/day_mode_text_color1_333333"
+        android:textSize="@dimen/text_size_18"/>
+
+    <com.wallstreetcn.baseui.widget.CustomTextView
+        android:id="@+id/copiedCouponCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_dp5"
+        android:gravity="center_horizontal"
+        android:text="f68f4b71418030401f5cda3ce1897a1c"
+        android:textColor="@color/day_mode_theme_color_1478f0"
+        android:textSize="@dimen/text_size_12"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/margin_dp30"
+        android:layout_marginRight="@dimen/margin_dp30">
+
+        <com.wallstreetcn.imageloader.WscnImageView
+            android:id="@+id/CouponTopicImg"
+            android:layout_width="68dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="@dimen/margin_dp15"
+            app:backgroundImage="@color/default_img_placeholder"/>
+
+        <com.wallstreetcn.baseui.widget.CustomTextView
+            android:id="@+id/CouponTopicTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_dp15"
+            android:layout_marginTop="@dimen/margin_dp15"
+            android:layout_toRightOf="@+id/CouponTopicImg"
+            android:lines="2"
+            android:text="「全球货币之旅万一太长可以换行」"
+            android:textColor="@color/day_mode_text_color1_333333"
+            android:textSize="@dimen/text_size_17"/>
+
+        <com.wallstreetcn.baseui.widget.CustomTextView
+            android:id="@+id/topicPriceDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/couponPrice"
+            android:layout_alignLeft="@+id/CouponTopicTitle"
+            android:text="@string/base_original_price"
+            android:textColor="@color/day_mode_text_color_808080"
+            android:textSize="@dimen/text_size_12"/>
+
+        <com.wallstreetcn.baseui.customView.IconView
+            android:id="@+id/topicPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/couponPrice"
+            android:layout_alignParentRight="true"
+            android:text="￥1999.00"
+            android:textColor="@color/day_mode_text_color_808080"
+            android:textSize="@dimen/text_size_12"/>
+
+        <com.wallstreetcn.baseui.widget.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/CouponTopicImg"
+            android:layout_alignLeft="@+id/CouponTopicTitle"
+            android:paddingTop="@dimen/margin_dp3"
+            android:text="@string/base_after_preferential_treatment"
+            android:textColor="@color/day_mode_theme_color_1478f0"
+            android:textSize="@dimen/text_size_14"/>
+
+        <com.wallstreetcn.baseui.customView.IconView
+            android:id="@+id/couponPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/CouponTopicImg"
+            android:layout_alignParentRight="true"
+            android:paddingTop="@dimen/margin_dp3"
+            android:text="￥1888.00"
+            android:textColor="@color/day_mode_theme_color_1478f0"
+            android:textSize="@dimen/text_size_14"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0.5"
+        android:layout_marginTop="@dimen/margin_dp25"
+        android:background="@color/day_mode_divide_line_color_e6e6e6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_dp50"
+        android:orientation="horizontal">
+
+        <com.wallstreetcn.baseui.widget.CustomTextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/base_cancel_text"
+            android:textColor="@color/day_mode_text_color3_999999"
+            android:textSize="@dimen/text_size_18"/>
+
+        <View
+            android:layout_width="@dimen/space_0.5"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@color/day_mode_divide_line_color_e6e6e6"/>
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/btn_sure"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/base_payment_text"
+            android:textColor="@color/day_mode_theme_color_1478f0"
+            android:textSize="@dimen/text_size_18"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/day_mode_background_color2_f6f6f6">
+
+    <LinearLayout
+        android:id="@+id/net_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:paddingLeft="@dimen/margin_dp15"
+        android:paddingRight="@dimen/margin_dp15">
+
+        <com.wallstreetcn.imageloader.WscnImageView
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            app:actualImageScaleType="centerCrop"
+            android:layout_marginTop="@dimen/margin_dp65"
+            app:viewAspectRatio="2.01"
+            app:actualImageResource="@drawable/no_net_bg"
+            />
+
+        <com.wallstreetcn.baseui.widget.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_16"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/margin_dp42"
+            android:textColor="@color/day_mode_text_color1_333333"
+            android:text="无可用网络"
+            />
+
+        <com.wallstreetcn.baseui.widget.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_14"
+            android:layout_marginTop="@dimen/margin_dp10"
+            android:textColor="@color/day_mode_text_color3_999999"
+            android:text="请检查APP的网络连接权限及当前网络状态"
+            />
+    </LinearLayout>
+
+    <com.wallstreetcn.baseui.widget.pulltorefresh.PullToRefreshAdapterView
+        android:id="@+id/mPullToRefreshLayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.wallstreetcn.webview.Widget.NestedWebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </com.wallstreetcn.baseui.widget.pulltorefresh.PullToRefreshAdapterView>
+</RelativeLayout>

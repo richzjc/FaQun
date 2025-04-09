@@ -1,0 +1,299 @@
+/**
+ * // 构建环境为mac os
+ */
+// 加载Properties文件信息
+def keystorePropertiesFile = rootProject.file("./packer/key.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+def localPropertiesFile = rootProject.file("local.properties")
+def localProperties = new Properties()
+localProperties.load(new FileInputStream(localPropertiesFile))
+
+ext {
+    // 签名文件
+    KEY_PATH = "${rootProject.rootDir}/packer/key/faqun.jks" //密钥路径
+    KEY_PASS = keystoreProperties['STORE_PASSWORD'] // 密钥密码
+    KEY_ALIAS = keystoreProperties['KEY_ALIAS'] // 密钥别名
+    KEY_ALIAS_PASS = keystoreProperties['KEY_PASSWORD'] // 别名密码
+
+    // 360 加固文件
+    REINFORCE_JAR = "${rootProject.rootDir}/packer/jiagu/jiagu.jar"
+    REINFORCE_NAME = keystoreProperties['360_NAME'] //360加固账号
+    REINFORCE_PASSWORD = keystoreProperties['360_PASSWORD'] //360加固密码
+
+    // sdk 目录
+    ANDROID_SDK_PATH = localProperties['sdk.dir']
+
+    // 应用信息
+    APP_VERSION = VERSION_NAME
+
+    // 签名工具
+    ZIP_ALIGN_PATH = "${ANDROID_SDK_PATH}/build-tools/${BUILD_TOOL_VERSION}/zipalign"
+//    APK_SIGNER_PATH = "${ANDROID_SDK_PATH}/build-tools/${BUILD_TOOL_VERSION}/apksigner"
+//    APK_SIGNER_PATH = "${ANDROID_SDK_PATH}/build-tools/${BUILD_TOOL_VERSION}/lib/apksigner.jar"
+//    APK_SIGNER_PATH = "${rootProject.rootDir}/packer/apksigner.jar"
+    APK_SIGNER_PATH = "${ANDROID_SDK_PATH}/build-tools/${BUILD_TOOL_VERSION}/lib/apksigner.jar"
+}
+
+
+/**
+ * "华尔街见闻"
+ * 打包->tinkerBakApk(xxx-release.apk)->加固->重新签名(生成最终包)
+ * 最终生成包路径:  /Prometheus/News/build/bakApk/wscn/app-jiagu-release.apk
+ */
+task AphroditeJiaguRelease() {
+    def appName = "Aphrodite"
+    dependsOn(":${appName}:assembleRelease")
+    doLast {
+        def apkFile = getOriginApk(appName)
+        if (apkFile.exists()) {
+            reinforceApk(apkFile) // 加壳
+            reSignApk(appName) // 重签
+
+        }
+    }
+}
+
+//task reinforceAphroditeApk(){
+//    def appName = "Aphrodite"
+//    def apkFile = getOriginApk(appName)
+//    if (apkFile.exists()) {
+//        reinforceApk(apkFile)
+//    }
+//}
+
+
+///** 重新(对齐)签名 */
+//task reSignAphroditeApk() {
+//    def appName = "Aphrodite"
+//    if (!appName) {
+//        println("--------------------appName 为空--------------------")
+//        throw new FileNotFoundException('appName is empty and cannot reSignApk')
+//    }
+//    println("--------------------重新对齐、签名--------------------")
+//    //commandLine "sh","-c", "{zipalign工具的文件路径} -v -p 4  {已加固的apk文件路径} {对齐后输出的apk文件路径}"
+//    //commandLine "sh", "-c", "{apksigner工具的文件路径} sign --ks {签名文件的位置} --ks-key-alias {alias别名} --ks-pass pass:{签名文件存储的密码} --key-pass pass:{alias密码} --out {签名后输出的apk文件} {对齐后输出的apk文件路径}"
+//    //已加固apk路径
+//    def jiagu360ApkPath = "${project.buildDir}/bakApk/wscn/${appName}-release_" + "${APP_VERSION}".replace(".", "") + "_jiagu.apk"
+//    //定义对齐后生成文件路径
+//    def zipalignPath = "${project.buildDir}/bakApk/wscn/${appName}-release_" + "${APP_VERSION}".replace(".", "") + "_jiagu_zipalign.apk"
+//    println("开始将加固apk文件对齐......")
+//    println(ZIP_ALIGN_PATH)
+//    println(jiagu360ApkPath)
+//    println(zipalignPath)
+//    exec {
+//        commandLine "sh", "-c", "${ZIP_ALIGN_PATH} -v -p 4 ${jiagu360ApkPath} ${zipalignPath}"
+//    }
+//    println("加固apk文件对齐后路径：${zipalignPath}")
+//    println("开始生成新签名apk文件......")
+//    def finalApkPath = "${project.buildDir}/bakApk/wscn/${appName}-jiagu-release.apk"
+//    exec {
+//        //commandLine "sh", "-c", "{apksigner工具的文件路径} sign --ks {签名文件的位置} --ks-key-alias {alias别名} --ks-pass pass:{签名文件存储的密码} --key-pass pass:{alias密码} --out {签名后输出的apk文件} {源apk文件路径}"
+//        //commandLine "sh", "-c", "${APK_SIGNER_PATH} sign --ks ${KEY_PATH} --ks-key-alias ${KEY_ALIAS} --ks-pass pass:${KEY_PASS} --key-pass pass:${KEY_ALIAS_PASS} --out ${finalApkPath} ${zipalignPath}"
+//        commandLine "sh", "-c", "java -jar ${APK_SIGNER_PATH} sign --ks ${KEY_PATH} --ks-key-alias ${KEY_ALIAS} --ks-pass pass:${KEY_PASS} --key-pass pass:${KEY_ALIAS_PASS} --out ${finalApkPath} ${zipalignPath}"
+//    }
+//    println("--------------------重新签名文件输出--------------------")
+//    println("最终加固重签后apk文件目录: $finalApkPath")
+//    println("开始上传Sentry符号表文件")
+//    exec {
+//        def mappingPath = "${rootProject.rootDir}/Aphrodite/build/outputs/mapping/release/mapping.txt"
+//        def comand = "sentry-cli  --url https://sentry.wscn.net upload-proguard --version ${APP_VERSION} --project jianwen-android --app-id com.wallstreetcn.news --version-code ${VERSION_CODE} --uuid 413dcf6d-f664-4131-979e-9f8f207af6a5 ${mappingPath} --org sentry --auth-token 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"
+//        commandLine "sh", "-c", "${comand}"
+//    }
+//    println("符号表上传到Sentry成功")
+//
+//    println("开始上传Bugly符号表文件")
+//    exec {
+//        def mappingPath = "${rootProject.rootDir}/Aphrodite/build/outputs/mapping/release/mapping.txt"
+//        def comand = "sentry-cli  --url https://sentry.wscn.net upload-proguard --version ${APP_VERSION} --project jianwen-android --app-id com.wallstreetcn.news --version-code ${VERSION_CODE} --uuid 413dcf6d-f664-4131-979e-9f8f207af6a5 ${mappingPath} --org sentry --auth-token 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"
+//        commandLine "sh", "-c", "${comand}"
+//    }
+//    println("符号表上传到Bugly成功")
+//    exec {
+//        def javaHome = System.getenv("JAVA_HOME")
+//        def javaPath = "${javaHome}/bin/java"
+//        var mappingPath = "${rootProject.rootDir}/Aphrodite/build/outputs/mapping/release"
+//        def command = "${javaPath} -jar buglyqq-upload-symbol.jar -appid 993f060b30 -appkey f98dbc62-f9c2-4308-bd21-9494a17202fc -bundleid com.wallstreetcn.news -version ${APP_VERSION} -platform Android -inputSymbol ${mappingPath} -inputMapping ${mappingPath}"
+//        commandLine "sh", "-c", "${command}"
+//    }
+//    println("上传符号表到bugly成功")
+//}
+
+
+/**
+ * "华尔街见闻"
+ * 多渠道打包
+ */
+task AphroditeJiaguMultiChannelRelease() {
+    def appName = "Aphrodite"
+    dependsOn(":${appName}JiaguRelease")
+    doLast {
+        genApkByChannels(appName)
+    }
+}
+
+/**
+ * "见智研究"
+ * 打包->tinkerBakApk(xxx-release.apk)->加固->重新签名(生成最终包)
+ * 最终生成包路径:  /Prometheus/News/build/bakApk/wscn/app-jiagu-release.apk
+ */
+task AresJiaguRelease() {
+    def appName = "Ares"
+    dependsOn(":${appName}:assembleRelease")
+    doLast {
+        def apkFile = getOriginApk(appName)
+        if (apkFile.exists()) {
+            reinforceApk(apkFile)
+            reSignApk(appName)
+        }
+    }
+}
+
+/**
+ * "见智研究"
+ * 多渠道打包
+ */
+task AresJiaguMultiChannelRelease() {
+    def appName = "Ares"
+    dependsOn(":${appName}JiaguRelease")
+    doLast {
+        genApkByChannels(appName)
+    }
+}
+
+/*============↓ pack config function ↓============*/
+/*============↓ pack config function ↓============*/
+/*============↓ pack config function ↓============*/
+/** 获取release基准包 */
+def getOriginApk(String appName) {
+    // find 基准包apk文件
+    def tinkerBakApkDir = "${project.getChildProjects().get("${appName}").buildDir}/bakApk"
+    def bakApkFile = new File(tinkerBakApkDir)
+    if (!bakApkFile.exists()) {
+        def releaseApk = "${project.getChildProjects().get("${appName}").buildDir}/outputs/apk/release/${appName}-release.apk"
+        def apkReleaseFile = new File(releaseApk)
+        return apkReleaseFile
+    } else {
+        def targetApkDir = bakApkFile.listFiles(new FilenameFilter() {
+            @Override
+            boolean accept(File file, String s) {
+                return s.contains(appName)
+            }
+        }).toSorted(new Comparator<File>() {
+            @Override
+            int compare(File t, File t1) {
+                return t1.name <=> t.name
+            }
+        }).first()
+
+        def apkFile = targetApkDir.listFiles(new FilenameFilter() {
+            @Override
+            boolean accept(File file, String s) {
+                return s.contains("${appName}-release.apk")
+            }
+        }).first()
+        return apkFile
+    }
+}
+
+/** 基础包加固 */
+def reinforceApk(File apk) {
+    println("--------------------加固apk--------------------")
+    println("--------------------检查文件路径--------------------")
+    // 对原始apk加固输出路径
+    def apkOutPath = new File("${project.buildDir}/bakApk/wscn")
+
+    println("原始apk默认路径: ${apk.absolutePath}")
+    println("加固apk输出路径: $apkOutPath")
+
+    if (apk == null || !apk.exists()) {
+        println("--------------------relase apk文件未找到--------------------")
+        throw new FileNotFoundException('apk is not exists and cannot reinforce')
+    }
+
+    if (!apkOutPath.exists()) {
+        apkOutPath.mkdirs()
+    } else {
+        cleanFiles(apkOutPath) // 清空
+    }
+
+    println("--------------------执行360加壳命令--------------------")
+    exec {
+        //commandLine "sh", "-c", "ls"
+        commandLine "sh", "-c", "java -jar ${REINFORCE_JAR} -help"
+        commandLine "sh", "-c", "java -jar ${REINFORCE_JAR} -login  ${REINFORCE_NAME} ${REINFORCE_PASSWORD}"
+        commandLine "sh", "-c", "java -jar ${REINFORCE_JAR} -importsign ${KEY_PATH} ${KEY_PASS} ${KEY_ALIAS} ${KEY_ALIAS_PASS}"
+        commandLine "sh", "-c", "java -jar ${REINFORCE_JAR} -showsign"
+        commandLine "sh", "-c", "java -jar ${REINFORCE_JAR} -jiagu ${apk} ${apkOutPath}"
+    }
+    println("--------------------360加壳操作完成--------------------")
+}
+
+/** 重新(对齐)签名 */
+def reSignApk(String appName) {
+    if (!appName) {
+        println("--------------------appName 为空--------------------")
+        throw new FileNotFoundException('appName is empty and cannot reSignApk')
+    }
+    println("--------------------重新对齐、签名--------------------")
+    //commandLine "sh","-c", "{zipalign工具的文件路径} -v -p 4  {已加固的apk文件路径} {对齐后输出的apk文件路径}"
+    //commandLine "sh", "-c", "{apksigner工具的文件路径} sign --ks {签名文件的位置} --ks-key-alias {alias别名} --ks-pass pass:{签名文件存储的密码} --key-pass pass:{alias密码} --out {签名后输出的apk文件} {对齐后输出的apk文件路径}"
+    //已加固apk路径
+    def jiagu360ApkPath = "${project.buildDir}/bakApk/wscn/${appName}-release_" + "${APP_VERSION}".replace(".", "") + "_jiagu.apk"
+    //定义对齐后生成文件路径
+    def zipalignPath = "${project.buildDir}/bakApk/wscn/${appName}-release_" + "${APP_VERSION}".replace(".", "") + "_jiagu_zipalign.apk"
+    println("开始将加固apk文件对齐......")
+    exec {
+        commandLine "sh", "-c", "${ZIP_ALIGN_PATH} -v -p 4 ${jiagu360ApkPath} ${zipalignPath}"
+    }
+    println("加固apk文件对齐后路径：${zipalignPath}")
+    println("开始生成新签名apk文件......")
+    def finalApkPath = "${project.buildDir}/bakApk/wscn/${appName}-jiagu-release.apk"
+    exec {
+        //commandLine "sh", "-c", "{apksigner工具的文件路径} sign --ks {签名文件的位置} --ks-key-alias {alias别名} --ks-pass pass:{签名文件存储的密码} --key-pass pass:{alias密码} --out {签名后输出的apk文件} {源apk文件路径}"
+        //commandLine "sh", "-c", "${APK_SIGNER_PATH} sign --ks ${KEY_PATH} --ks-key-alias ${KEY_ALIAS} --ks-pass pass:${KEY_PASS} --key-pass pass:${KEY_ALIAS_PASS} --out ${finalApkPath} ${zipalignPath}"
+        commandLine "sh", "-c", "java -jar ${APK_SIGNER_PATH} sign --ks ${KEY_PATH} --ks-key-alias ${KEY_ALIAS} --ks-pass pass:${KEY_PASS} --key-pass pass:${KEY_ALIAS_PASS} --out ${finalApkPath} ${zipalignPath}"
+    }
+    println("--------------------重新签名文件输出--------------------")
+    println("最终加固重签后apk文件目录: $finalApkPath")
+}
+
+/** 渠道包生成 */
+def genApkByChannels(String appName) {
+    println("开始生成拼音渠道包......")
+    // 渠道信息
+    // packer-ng-2.0.1.jar 文件路径
+    def channel_tools_path = "${rootProject.rootDir}/packer/packer-ng-2.0.1.jar"
+    // 渠道文件路径
+    def channel_market_path = "${rootProject.rootDir}/packer/market/markets.txt"
+    // 加固最终apk路径
+    def apkPath = "${project.buildDir}/bakApk/wscn/${appName}-jiagu-release.apk"
+    // 渠道包的输出路径
+    def apk_channel_market_path = "${project.buildDir}/apks/wscn/markets"
+    exec {
+        //java -jar packer-ng-2.0.1.jar generate --channels=@channels.txt --output=build/archives app.apk
+        commandLine "sh", "-c", "java -jar ${channel_tools_path} generate --channels=@${channel_market_path} --output=${apk_channel_market_path} ${apkPath}"
+    }
+    println("开始执行渠道压缩......")
+    exec {
+        commandLine "sh", "-c", "rm -rf './build/${appName}渠道包.zip'"
+        commandLine "sh", "-c", "zip -r  './build/${appName}渠道包.zip' '${apk_channel_market_path}'"
+    }
+    println("渠道压缩完成!!!")
+    println("--------------------渠道打包结束--------------------")
+    println("--------------------根目录build文件夹下查看--------------------")
+}
+
+def cleanFiles(File outputPath) {
+    File[] list = outputPath.listFiles()
+    for (File file : list) {
+        if (file.isDirectory()) {
+            cleanFiles(file)
+        } else {
+            file.delete()
+        }
+    }
+}
+
+

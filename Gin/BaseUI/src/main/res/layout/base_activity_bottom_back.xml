@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="45dp"
+              android:background="@color/day_mode_divide_line_color_e6e6e6"
+              android:orientation="horizontal"
+              android:paddingTop="@dimen/space_0.5">
+
+    <com.wallstreetcn.baseui.customView.IconView
+        android:id="@+id/iconBack"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:background="@color/day_mode_background_color1_ffffff"
+        android:gravity="center"
+        android:text="@string/icon_back_with_circle"
+        android:textColor="@color/day_mode_text_color1_333333"
+        android:textSize="22dp"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/day_mode_background_color1_ffffff"/>
+</LinearLayout>

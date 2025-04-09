@@ -1,0 +1,42 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wallstreetcn.global" >
+4
+5    <uses-sdk android:minSdkVersion="26" />
+6
+7    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+7-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:5:5-76
+7-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:5:22-73
+8    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+8-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:6:5-75
+8-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:6:22-72
+9    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+9-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:7:5-75
+9-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:7:22-72
+10
+11    <application
+11-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:9:5-26:19
+12        android:allowBackup="true"
+12-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:10:9-35
+13        android:label="@string/app_name"
+13-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:11:9-41
+14        android:supportsRtl="true" >
+14-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:12:9-35
+15        <activity
+15-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:15:9-17:52
+16            android:name="cn.finalteam.rxgalleryfinal.ui.activity.MediaActivity"
+16-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:16:13-81
+17            android:screenOrientation="portrait" />
+17-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:17:13-49
+18        <activity
+18-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:19:9-21:52
+19            android:name="com.yalantis.ucrop.UCropActivity"
+19-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:20:13-60
+20            android:screenOrientation="portrait" />
+20-->/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/AndroidManifest.xml:21:13-49
+21
+22        <!-- easy photo -->
+23
+24    </application>
+25
+26</manifest>

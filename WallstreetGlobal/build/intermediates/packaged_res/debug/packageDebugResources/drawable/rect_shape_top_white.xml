@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+
+    <corners
+        android:topLeftRadius="@dimen/margin_dp15"
+        android:topRightRadius="@dimen/margin_dp15"
+        />
+    <solid android:color="@color/day_mode_background_color1_ffffff"/>
+</shape>

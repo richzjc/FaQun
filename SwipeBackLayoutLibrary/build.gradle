@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+dependencies {
+    api libs.appcompat
+    api libs.actvity.ktx
+}
+android {
+    compileSdk ANDROID_TARGET_VERSION as int
+    namespace 'me.imid.swipebacklayout.lib'
+
+    defaultConfig {
+        minSdk ANDROID_MIN_VERSION as int
+        targetSdk ANDROID_TARGET_VERSION as int
+    }
+
+    viewBinding {
+        enabled = true
+    }
+}
+

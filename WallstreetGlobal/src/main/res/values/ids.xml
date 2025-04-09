@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <item name="brightSeekBar" type="id" tools:ignore="ResourceName" />
+    <item name="audioSeekBar" type="id" tools:ignore="ResourceName" />
+    <item name="audioBehaviorView" type="id" tools:ignore="ResourceName" />
+    <item name="swipe_to_search_viewpager" type="id" />
+    <item name="video_controller_id" type="id" />
+    <item name="right_scroll" type="id"/>
+    <item name="screen_shot" type="id"/>
+</resources>

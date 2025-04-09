@@ -1,0 +1,13 @@
+project.ext{
+    setAppDefaultConfig = {
+        extension ->
+            extension.apply plugin: 'com.android.application'
+            extension.apply from: '../basic_ktx.gradle'
+    }
+
+    setLibDefaultConfig = {
+        extension ->
+            extension.apply plugin: 'com.android.library'
+            extension.apply from: '../basic_ktx.gradle'
+    }
+}

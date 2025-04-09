@@ -1,0 +1,64 @@
+apply plugin: 'com.android.library'
+
+
+android {
+    compileSdk ANDROID_TARGET_VERSION as int
+    namespace 'com.richzjc.dialoglib'
+
+    defaultConfig {
+        minSdk ANDROID_MIN_VERSION as int
+        targetSdk ANDROID_TARGET_VERSION as int
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // 必须启用这个库标志，确保生成 AAR
+    publishing {
+        singleVariant("release")
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation libs.appcompat
+}
+
+apply plugin: 'maven-publish'
+// 加载 local.properties 中的用户名和密码
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+publishing {
+    publications {
+        // 创建一个 Maven 发布任务
+        release(MavenPublication) {
+            // 设置 groupId, artifactId, 版本等
+            groupId = 'com.github.richzjc'
+            artifactId = 'dialogLib'
+            version = '1.0.4'
+
+            // 指定发布 AAR 文件
+            afterEvaluate {
+                // 发布 AAR 文件
+                artifact("$buildDir/outputs/aar/${project.name}-release.aar")
+            }
+        }
+    }
+
+    repositories {
+        // 配置私有 Maven 仓库的 URL 和身份验证信息
+        maven {
+            url = uri('https://maven.wallstcn.com/repository/mobile-third/')
+            credentials {
+                username = properties.getProperty("mavenUser")
+                password = properties.getProperty("mavenPwd")
+            }
+        }
+    }
+}
+

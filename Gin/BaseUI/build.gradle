@@ -1,0 +1,89 @@
+apply plugin: 'com.android.library'
+apply from: '../../basic_ktx.gradle'
+
+android {
+    compileSdk ANDROID_TARGET_VERSION as int
+    namespace 'com.wallstreetcn.baseui'
+
+    defaultConfig {
+        minSdk ANDROID_MIN_VERSION as int
+        targetSdk ANDROID_TARGET_VERSION as int
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+        kotlinOptions.freeCompilerArgs += ['-module-name', "${GROUP_ID}.BaseUI"]
+    }
+    viewBinding {
+        enabled = true
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+
+    if (Boolean.parseBoolean(PROJECT_COMPILE)) {
+        api project(":Helper")
+    } else {
+        api "com.wallstreetcn:Helper:${HELPER_VERSION}"
+    }
+
+    if (Boolean.parseBoolean(PROJECT_COMPILE)) {
+        api project(":RPC")
+    } else {
+        api "com.wallstreetcn:RPC:${RPC_VERSION}"
+    }
+
+    api libs.fastjson
+    api libs.multDex
+    api libs.pulltorefresh
+    api(libs.imageLoaderLib) {
+        exclude module: 'okhttp', group: 'com.squareup.okhttp3'
+    }
+    api project(":SwipeBackLayoutLibrary")
+    api libs.recycleritemclicksupport
+    api libs.design
+    api libs.viewmodel
+    api libs.cardView
+    api libs.emoji
+    api libs.emojiBundle
+
+    api "com.facebook.shimmer:shimmer:0.1.0@aar"
+    implementation libs.intentargs
+    api libs.net.change
+    api libs.stickyheader
+    api libs.rxactivityresult
+    api libs.autofittextview
+    api libs.wangavi
+    api libs.materialEditText
+    api libs.stdlib
+    implementation libs.glide
+    api libs.rwidget
+    api libs.appcompat
+    api libs.work
+    api libs.swipemenurecyclerview
+    api libs.constraintLayout
+    api libs.dialogViewLayout
+    api libs.observerLib
+    api project(':dialoglibrary')
+}

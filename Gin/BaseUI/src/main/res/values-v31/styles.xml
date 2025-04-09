@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="WhiteStatusTheme.Day.Glaucus" parent="BaseAppTheme">
+        <item name="android:windowLightStatusBar">@bool/statusBarTextColor</item>
+        <item name="colorPrimary">@color/day_mode_toolbar_color</item>
+        <item name="colorPrimaryDark">@color/day_mode_toolbar_color</item>
+        <item name="colorAccent">@color/day_mode_theme_color_1478f0</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/day_mode_toolbar_color</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@color/transparent</item>
+    </style>
+</resources>

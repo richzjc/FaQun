@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SettingItemView 对应各组件样式 -->
+
+    <!-- SettingItemView 左边textView-->
+    <style name="set_item_leftTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:layout_marginLeft">@dimen/margin_dp15</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!-- SettingItemView 左边textView旁边小红点-->
+    <style name="set_item_redDot">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_dp5</item>
+        <item name="android:layout_marginTop">@dimen/margin_dp13</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:src">@drawable/badge_more</item>
+    </style>
+
+
+    <!-- SettingItemView normal模式下 右边的 > -->
+    <style name="set_item_arrow">
+        <item name="android:layout_height">@dimen/margin_dp15</item>
+        <item name="android:layout_width">@dimen/margin_dp10</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/user_center_arrow</item>
+        <item name="android:layout_marginRight">@dimen/margin_dp20</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+
+    <!-- SettingItemView checkbox模式下 右边的checkbox-->
+    <style name="set_item_checkbox" parent="Base.Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:button">@drawable/global_checkbox_switch</item>
+        <item name="android:layout_marginRight">@dimen/margin_dp12</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!-- SettingItemView checked模式下 右边的 对号 -->
+    <style name="set_item_checked">
+        <item name="android:layout_height">@dimen/margin_dp15</item>
+        <item name="android:layout_width">@dimen/margin_dp15</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/global_drawable_confirm</item>
+        <item name="android:layout_marginRight">@dimen/margin_dp10</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!--  SettingItemView 右边的TextView -->
+    <style name="set_item_rightTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">@dimen/margin_dp10</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+
+    <style name="loading_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="pay_tv_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_dp22</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/margin_dp13</item>
+        <item name="android:layout_marginRight">@dimen/margin_dp13</item>
+    </style>
+
+    <style name="bottom_btn_parent_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_dp25</item>
+        <item name="android:layout_marginRight">@dimen/margin_dp10</item>
+        <item name="android:layout_marginTop">@dimen/margin_dp30</item>
+        <item name="android:layout_marginBottom">@dimen/margin_dp15</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="wx_pay_btn_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/margin_dp40</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+    </style>
+
+    <style name="add_friends_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+
+
+    <style name="edit_text_with_del">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/margin_dp30</item>
+        <item name="android:layout_marginLeft">@dimen/margin_dp15</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:drawableRight">@drawable/user_close_img</item>
+        <item name="android:drawablePadding">@dimen/margin_dp15</item>
+        <item name="android:drawableLeft">@drawable/user_search_img</item>
+        <item name="android:hint">@string/edittext_with_del_hint</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:paddingLeft">@dimen/margin_dp10</item>
+        <item name="android:paddingRight">@dimen/margin_dp10</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/day_mode_text_color1_333333</item>
+        <item name="android:textColorHint">@color/day_mode_text_color3_999999</item>
+        <item name="android:textCursorDrawable">@drawable/search_cursor_color</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+    </style>
+
+    <style name="news_detail_bottom_iconview">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/day_mode_text_color1_333333</item>
+        <item name="android:textSize">@dimen/text_size_22</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="global_style_select_time">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/day_mode_text_color1_333333</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="global_style_week">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/day_mode_text_color3_999999</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!--<style name="Theme_Light.Default" />-->
+
+
+    <!--圆角Button-->
+    <declare-styleable name="CornersButton">
+        <attr name="btn_strokeWidth" format="reference|dimension" />
+        <attr name="btn_strokeColor" format="reference|color" />
+        <attr name="btn_blur" format="reference|boolean" />
+        <attr name="btn_cornerRadius" format="reference|dimension" />
+        <attr name="btn_unpressColor" format="reference|color" />
+        <attr name="btn_pressColor" format="reference|color" />
+        <attr name="btn_text_unpressColor" format="reference|color" />
+        <attr name="btn_text_pressColor" format="reference|color" />
+
+        <attr name="use_fiance_font" format="reference|boolean" />
+
+        <attr name="btn_leftTopRadius" format="reference|dimension" />
+        <attr name="btn_leftBottomRadius" format="reference|dimension" />
+        <attr name="btn_rightTopRadius" format="reference|dimension" />
+        <attr name="btn_rightBottomRadius" format="reference|dimension" />
+    </declare-styleable>
+
+</resources>

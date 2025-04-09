@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AlphaAppTheme" parent="BaseAppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="colorAccent">@color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="AlphaAppTheme1482f0" parent="BaseAppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="colorAccent">@color/day_mode_theme_color_1478f0</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="ProxyMainTheme" parent="BaseAppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="colorAccent">@color/day_mode_theme_color_1478f0</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+
+    <style name="ptr_style">
+        <!--<item name="ptr_duration_to_close">1000</item>
+        <item name="ptr_duration_to_close_header">1000</item>
+        <item name="ptr_keep_header_when_refresh">true</item>
+        <item name="ptr_resistance">2</item>-->
+    </style>
+
+
+    <style name="anim_menu_bottombar">
+        <item name="android:windowEnterAnimation">@anim/menu_bottombar_in</item>
+        <item name="android:windowExitAnimation">@anim/menu_bottombar_out</item>
+    </style>
+
+
+    <style name="toolbar_title_style">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="toolbar_button_style">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="WscnBaseDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="TransparentDialog" parent="WscnBaseDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimAmount">0</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="DefaultDialog" parent="WscnBaseDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="DistributionDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <style name="dialog_loading" parent="WscnBaseDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="RealGoodsDialog" parent="WscnBaseDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowEnterAnimation">@anim/menu_bottombar_in</item>
+        <item name="android:windowExitAnimation">@anim/menu_bottombar_out</item>
+    </style>
+
+    <style name="loading_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/day_mode_toolbar_color</item>
+        <item name="colorPrimaryDark">@color/day_mode_toolbar_color</item>
+        <item name="colorAccent">@color/day_mode_toolbar_color</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+        <item name="android:alertDialogTheme">@style/Theme.AppCompat.Light.Dialog.Alert.Self</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.Dialog.Alert.Self" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/day_mode_text_color1_333333</item>
+    </style>
+
+    <style name="WhiteStatusTheme.Day" parent="BaseAppTheme">
+        <item name="android:windowLightStatusBar">@bool/statusBarTextColor</item>
+        <item name="colorPrimary">@color/day_mode_toolbar_color</item>
+        <item name="colorPrimaryDark">@color/day_mode_toolbar_color</item>
+        <item name="colorAccent">@color/day_mode_theme_color_1478f0</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/day_mode_toolbar_color</item>
+
+    </style>
+
+    <style name="DarkStatusTheme.Day" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/day_mode_theme_color_1478f0</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="DefaultAppTheme.Day" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/day_mode_toolbar_color</item>
+        <item name="colorPrimaryDark">@color/day_mode_toolbar_color</item>
+        <item name="colorAccent">@color/day_mode_theme_color_1478f0</item>
+    </style>
+
+    <style name="Main.DefaultAppTheme.Day" parent="DefaultAppTheme.Day">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="TranslucentTheme" parent="BaseAppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/day_mode_toolbar_color</item>
+        <item name="colorPrimaryDark">@color/day_mode_toolbar_color</item>
+        <item name="colorAccent">@color/day_mode_theme_color_1478f0</item>
+    </style>
+
+
+    <style name="title_bar_right_btn_style">
+        <item name="android:paddingLeft">@dimen/margin_dp10</item>
+        <item name="android:paddingRight">@dimen/margin_dp10</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="divider_hor">
+        <item name="android:background">@color/day_mode_divide_line_color_e6e6e6</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/space_0.5</item>
+    </style>
+
+    <style name="divider_ver">
+        <item name="android:background">@color/day_mode_divide_line_color_e6e6e6</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/space_0.5</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="BaseAppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+</resources>

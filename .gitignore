@@ -1,0 +1,21 @@
+*.iml
+*.yml
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+.idea/
+*.ap_
+*.hprof
+/.gradle/
+/.idea/
+ajcore.*.*.*.txt
+
+
+/yingyongbao _readme.md
+/packer/jiagu/.cache/
+/packer/buglybin/
+/packer/cp_buglyQqUploadSymbolLib.jar
+/packer/jiagu/jiagu.db
+/tmpmob/

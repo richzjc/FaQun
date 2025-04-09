@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/loading_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.wallstreetcn.baseui.widget.CustomTextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_dp5"
+            android:layout_marginRight="@dimen/margin_dp5"
+            android:padding="10dp"
+            android:text="@string/base_loading_text"
+            android:textColor="@color/day_mode_text_dark_color"
+            android:textSize="16sp" />
+
+
+        <ProgressBar
+            style="@style/Base.Widget.AppCompat.ProgressBar"
+            android:layout_width="@dimen/margin_dp15"
+            android:layout_height="@dimen/margin_dp15"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_dp5"
+            android:layout_toLeftOf="@+id/textView"
+            android:layout_toStartOf="@+id/textView"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+    <com.wallstreetcn.baseui.widget.CustomTextView
+        android:id="@+id/load_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/margin_dp10"
+        android:paddingTop="@dimen/margin_dp10"
+        android:textColor="@color/day_mode_text_color2_666666"
+        android:textSize="@dimen/text_size_15"
+        android:visibility="gone" />
+</RelativeLayout>
+

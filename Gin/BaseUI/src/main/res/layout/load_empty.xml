@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/day_mode_background_color2_f6f6f6"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/margin_dp100">
+
+    <ImageView
+        android:id="@+id/img_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerInside" />
+
+    <com.wallstreetcn.baseui.widget.CustomTextView
+        android:id="@+id/tv_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_dp10"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="@dimen/margin_dp10"
+        android:gravity="center"
+        android:text="@string/base_no_content"
+        android:textColor="@color/day_mode_text_color3_999999"
+        android:textSize="@dimen/text_size_14" />
+
+    <com.wallstreetcn.baseui.widget.CustomTextView
+        android:id="@+id/tv_add_wits"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_blue_bg_1482f0"
+        android:gravity="center"
+        android:paddingHorizontal="25dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_15"
+        android:visibility="gone" />
+
+</LinearLayout>

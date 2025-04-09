@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="helper_one_text">一</string>
+    <string name="helper_two_text">二</string>
+    <string name="helper_three_text">三</string>
+    <string name="helper_four_text">四</string>
+    <string name="helper_five_text">五</string>
+    <string name="helper_six_text">六</string>
+    <string name="helper_day_text">日</string>
+    <string name="helper_week_text">星期</string>
+    <string name="helper_save_failure">保存失敗</string>
+    <string name="helper_no_sd_card_tips">操作失敗，無存儲讀寫權限，請授權後重試</string>
+    <string name="helper_m_d_h_m">MM-dd HH:mm</string>
+    <string name="helper_y_m_d_h_m">yyyy-MM-dd HH:mm</string>
+    <string name="helper_n_days_ago">%d天前</string>
+    <string name="helper_n_hours_ago">HH:mm</string>
+    <string name="helper_n_min_ago">%s分鐘前</string>
+    <string name="helper_seconds_ago">%s秒钟前</string>
+    <string name="helper_just_text">剛剛</string>
+    <string name="helper_m_d">MM-dd</string>
+    <string name="helper_y_m_d">yyyy-MM-dd日</string>
+    <string name="helper_hours_ago">小時前</string>
+    <string name="helper_minutes_ago">分鐘前</string>
+    <string name="helper_unkown_text">未知</string>
+    <string name="helper_china_mobile">中國移動</string>
+    <string name="helper_china_unicom">中國聯通</string>
+    <string name="helper_china_telecom">中國電信</string>
+    <string name="helper_hundreds_of_millions">億</string>
+    <string name="helper_ten_thousand">萬</string>
+    <string name="helper_copied_text">内容已複製</string>
+    <string name="helper_n_dot_billion">%.1f億</string>
+    <string name="helper_n_dot_million">%.1f萬</string>
+    <string name="helper_rang_text">_第</string>
+</resources>

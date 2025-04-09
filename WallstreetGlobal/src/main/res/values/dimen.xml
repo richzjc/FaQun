@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_sp16">16sp</dimen>
+    <dimen name="text_size_sp18">18sp</dimen>
+
+    <dimen name="view_pager_margin">12dp</dimen>
+
+    <dimen name="ad_dialog_width">280dp</dimen>
+    <dimen name="ad_dialog_height">420dp</dimen>
+    <dimen name="achievement_dialog_size">280dp</dimen>
+
+    <dimen name="dp_0">0dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+</resources>

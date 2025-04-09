@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/day_mode_background_color1_ffffff"
+    >
+
+    <com.wallstreetcn.baseui.widget.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleText="发群间隔"
+        app:statusBarPadding="true"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0.5"
+        android:background="@color/day_mode_divide_line_color_e6e6e6"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/day_mode_background_color2_f6f6f6"
+        android:text="为了有效防止群发过于频繁导致触发提醒，我们强烈建议您不要将间隔时间设置得过短"
+        android:textSize="@dimen/text_size_12"
+        android:textColor="@color/day_mode_rise_up_red_color"
+        android:padding="@dimen/margin_dp10"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_dp15"
+        android:layout_marginBottom="@dimen/margin_dp15"
+        >
+        <CheckBox
+            android:layout_width="@dimen/margin_dp15"
+            android:layout_height="@dimen/margin_dp15"
+            android:layout_marginLeft="@dimen/margin_dp15"
+            android:background="@drawable/global_drawable_cb_bg"
+            android:button="@null"
+            android:enabled="false"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_dp5"
+            android:layout_marginRight="@dimen/margin_dp15"
+            android:textColor="@color/day_mode_text_color1_333333"
+            android:text="随机1~4秒"
+            android:textSize="@dimen/text_size_16"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0.5"
+        android:background="@color/day_mode_divide_line_color_e6e6e6"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_dp15"
+        android:layout_marginBottom="@dimen/margin_dp15"
+        >
+        <CheckBox
+            android:layout_width="@dimen/margin_dp15"
+            android:layout_height="@dimen/margin_dp15"
+            android:layout_marginLeft="@dimen/margin_dp15"
+            android:background="@drawable/global_drawable_cb_bg"
+            android:button="@null"
+            android:enabled="false"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_dp5"
+            android:layout_marginRight="@dimen/margin_dp15"
+            android:textColor="@color/day_mode_text_color1_333333"
+            android:text="随机2~6秒"
+            android:textSize="@dimen/text_size_16"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0.5"
+        android:background="@color/day_mode_divide_line_color_e6e6e6"
+        />
+    <LinearLayout
+        android:id="@+id/ll_third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_dp15"
+        android:layout_marginBottom="@dimen/margin_dp15"
+        >
+        <CheckBox
+            android:layout_width="@dimen/margin_dp15"
+            android:layout_height="@dimen/margin_dp15"
+            android:layout_marginLeft="@dimen/margin_dp15"
+            android:background="@drawable/global_drawable_cb_bg"
+            android:button="@null"
+            android:enabled="false"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_dp5"
+            android:layout_marginRight="@dimen/margin_dp15"
+            android:textColor="@color/day_mode_text_color1_333333"
+            android:textSize="@dimen/text_size_16"
+            android:text="随机3~8秒"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0.5"
+        android:background="@color/day_mode_divide_line_color_e6e6e6"
+        />
+    <LinearLayout
+        android:id="@+id/ll_forth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_dp15"
+        android:layout_marginBottom="@dimen/margin_dp15"
+        >
+        <CheckBox
+            android:layout_width="@dimen/margin_dp15"
+            android:layout_height="@dimen/margin_dp15"
+            android:layout_marginLeft="@dimen/margin_dp15"
+            android:background="@drawable/global_drawable_cb_bg"
+            android:button="@null"
+            android:enabled="false"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_dp5"
+            android:layout_marginRight="@dimen/margin_dp15"
+            android:textColor="@color/day_mode_text_color1_333333"
+            android:textSize="@dimen/text_size_16"
+            android:text="随机4~10秒"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0.5"
+        android:background="@color/day_mode_divide_line_color_e6e6e6"
+        />
+    <LinearLayout
+        android:id="@+id/ll_fifth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_dp15"
+        android:layout_marginBottom="@dimen/margin_dp15"
+        >
+        <CheckBox
+            android:layout_width="@dimen/margin_dp15"
+            android:layout_height="@dimen/margin_dp15"
+            android:layout_marginLeft="@dimen/margin_dp15"
+            android:background="@drawable/global_drawable_cb_bg"
+            android:button="@null"
+            android:enabled="false"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_dp5"
+            android:layout_marginRight="@dimen/margin_dp15"
+            android:textColor="@color/day_mode_text_color1_333333"
+            android:textSize="@dimen/text_size_16"
+            android:text="随机5~12秒"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0.5"
+        android:background="@color/day_mode_divide_line_color_e6e6e6"
+        />
+
+    <TextView
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_dp40"
+        android:text="确定"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16"
+        android:layout_marginLeft="@dimen/margin_dp15"
+        android:layout_marginRight="@dimen/margin_dp15"
+        android:layout_marginTop="@dimen/margin_dp15"
+        android:layout_marginBottom="@dimen/margin_dp15"
+        android:background="@drawable/sendtochat_drawable"
+        />
+</LinearLayout>

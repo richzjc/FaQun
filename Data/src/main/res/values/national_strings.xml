@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="data_aes_data">AES数据</string>
+<string name="data_data_error_text">数据异常</string>
+</resources>

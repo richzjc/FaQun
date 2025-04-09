@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close">關閉</string>
+
+    <string name="edittext_with_del_hint">輸入你感興趣的內容</string>
+    <string name="wall_global_news_slogan">見聞快訊</string>
+    <string name="wall_global_custome_time">自定義時間</string>
+    <string name="wall_global_date_of_day">日</string>
+    <string name="wall_global_date_of_monday">一</string>
+    <string name="wall_global_date_of_tue">二</string>
+    <string name="wall_global_date_of_wend">三</string>
+    <string name="wall_global_date_of_thu">四</string>
+    <string name="wall_global_date_of_fri">五</string>
+    <string name="wall_global_date_of_sta">六</string>
+    <string name="wall_global_date_of_sun">清除</string>
+    <string name="wall_global_complete_text">完成</string>
+    <string name="wall_global_pdf_reader">PDF閱讀器</string>
+    <string name="wall_global_input_real_name">請輸入真實姓名</string>
+    <string name="wall_global_march_2018">2018年3月</string>
+    <string name="wall_global_share_to_frient">分享給朋友</string>
+    <string name="wall_global_selelcted_channal">已選頻道</string>
+    <string name="wall_global_drag_and_sort">长按拖动排序</string>
+    <string name="wall_global_unselected_channel">未選頻道</string>
+    <string name="wall_global_save_text">保存</string>
+    <string name="wall_global_delete_text">删除</string>
+    <string name="wall_global_original_text">原文</string>
+    <string name="wall_global_publish_your_opinion">發表你的看法</string>
+    <string name="wall_global_read_word_size">字體大小</string>
+    <string name="wall_global_more_text">更多</string>
+    <string name="wall_global_breaking_text">突發：</string>
+    <string name="wall_global_wall_name">華爾街見聞</string>
+    <string name="wall_global_wall_global_slogan">全球金融市場報導·財經資訊</string>
+    <string name="wall_global_information_channels">資訊·快訊·行情·日曆</string>
+    <string name="wall_global_qrcode_tips">長按二維碼識別獲得投資先機</string>
+    <string name="wall_global_select_date">選擇日期</string>
+    <string name="wall_global_end_time_not_eaelier_start">結束時間不能早於開始時間</string>
+    <string name="wall_global_start_time">起始日期</string>
+    <string name="wall_global_today">今天</string>
+    <string name="wall_global_end_time">結束日期</string>
+    <string name="wall_global_input_time_not_empty">傳入的行事曆是不能為空的</string>
+    <string name="wall_global_data_not_empty">資料來源是不能為空的</string>
+    <string name="wall_global_pay_channel">PREMIUM知識付費頻道</string>
+    <string name="wall_global_bitmap_exception">生成圖片异常</string>
+    <string name="wall_global_save_success">保存成功</string>
+    <string name="wall_global_permission_sd">請先允許SD卡許可權</string>
+
+    <string name="wall_global_must_observerid">必須要傳ObserverId</string>
+    <string name="wall_global_start_end_time_not_null">起止時間不能為零</string>
+    <string name="wall_global_selecte_time">請選擇日期</string>
+    <string name="wall_global_select_start_time">請選擇起始日期</string>
+    <string name="wall_global_select_end_time">請選擇結束日期</string>
+    <string name="wall_global_wall_name_prefix">【華爾街見聞</string>
+    <string name="wall_global_comments_deleted_tip">[評論已删除]</string>
+    <string name="wall_global_forever_text">永久</string>
+    <string name="wall_global_date_of_month">月</string>
+    <string name="wall_global_date_of_spring">季</string>
+    <string name="wall_global_date_of_half_year">半年</string>
+    <string name="wall_global_date_of_year">年</string>
+    <string name="wall_global_date_of_7_day">七天</string>
+    <string name="wall_global_date_of_1_month">一個月</string>
+    <string name="wall_global_date_of_3_month">三個月</string>
+    <string name="wall_global_date_of_1_year">一年</string>
+    <string name="wall_global_date_of_1_spring">一季</string>
+    <string name="wall_global_date_of_forever_subscribe">永久訂閱</string>
+    <string name="wall_global_date_of_month_subscribe">月度訂閱</string>
+    <string name="wall_global_date_of_spring_subscribe">季度訂閱</string>
+    <string name="wall_global_date_of_half_year_subscribe">半年訂閱</string>
+    <string name="wall_global_date_of_year_subscribe">年度訂閱</string>
+    <string name="wall_global_date_of_7_day_subscribe">七天訂閱</string>
+    <string name="wall_global_weixin_friend">微信好友</string>
+    <string name="wall_global_sina_weibo">新浪微博</string>
+    <string name="wall_global_weixin_circle">朋友圈</string>
+    <string name="wall_global_night_mode">夜間模式</string>
+    <string name="wall_global_share_frome">\n分享自「華爾街見聞」APP</string>
+    <string name="wall_global_m_d_h_m">M月d日HH:mm</string>
+    <string name="wall_global_get_7_24_news">獲取全球市場7x24實时滾動播報</string>
+    <string name="wall_global_fav_text">收藏</string>
+    <string name="wall_global_note_text">筆記</string>
+    <string name="wall_global_breaking_news">突發新聞</string>
+
+    <string name="wall_global_purchased_text">已購 |&#160;</string>
+    <string name="wall_global_trail_reading">試讀 |&#160;</string>
+    <string name="wall_global_premium_text">付費 |&#160;</string>
+
+
+    <string name="wall_global_flash_text">快訊</string>
+
+    <string name="wall_global_ad_text">广告</string>
+
+
+
+
+
+    <string name="global_push_feedback_tips">如果您收不到推送消息，可以將設備資訊回饋給我們，我們幫您處理</string>
+    <string name="global_push_feedback">回饋</string>
+
+    <string name="theme_my_subscribe">我的關注</string>
+    <string name="view_original_pic">查看原圖</string>
+    <string name="global_search_footer_view_all">查看全部</string>
+    <string name="global_search_footer_unit_result">條結果</string>
+    <string name="global_save_local">保存到本地</string>
+    <string name="news_detail_share_article_follow">本文來自主題【%s】，點擊查看更多精彩內容</string>
+    <string name="news_detail_live_share_content">來自【%s】主題</string>
+
+    <string name="live_vip_content">華爾街見聞VIP快訊，到達更快，解析更深</string>
+    <string name="premium_more">更多</string>
+    <string name="premium_wechat_poster">微信海報</string>
+    <string name="premium_wechat_circle_poster">朋友圈海報</string>
+    <string name="premium_generate_pic_exception">生成圖片异常</string>
+    <string name="premium_share_to_wallstreet">分享自「華爾街見聞」APP</string>
+
+    <string name="global_live_share_line1_desc">全球金融市場報導·財經資訊</string>
+    <string name="global_live_share_line3_desc">長按二維碼識別獲得投資先機</string>
+    <string name="global_live_share_line2_desc">资讯·研究·行情·日历</string>
+    <string name="global_generate_poster">生成海報</string>
+    <string name="global_title_share_poster">分享海報</string>
+
+    <string name="theme_share_title_follow">推薦關注【%s】</string>
+    <string name="live_click_vip_unlock">&#xe767; 點擊解鎖</string>
+    <string name="premium_book_unit">本</string>
+    <string name="premium_coupons_unit">席</string>
+    <string name="premium_piece_unit">件</string>
+    <string name="find_date_format_yyyymmdd_text">yyyy年MM月dd日</string>
+    <string name="premium_physical_remain">還剩%1$s%2$s</string>
+    <string name="premium_have_sold_out">已售罄</string>
+    <string name="premium_purchase_count">購買數量</string>
+    <string name="premium_physical_intro">實物介紹 &#xe6b5;</string>
+    <string name="premium_spec">規格</string>
+    <string name="order_purchases_number_than_one">購買數量不能小於1</string>
+    <string name="order_number_text">數量</string>
+    <string name="premium_sold_out">該商品已售罄，暫無法購買</string>
+    <string name="interactive_comment_list_reply">回復 %1$s</string>
+    <string name="interactive_comment_send">發送</string>
+    <string name="theme_int_add_comment">添加評論</string>
+    <string name="global_download_cache">下載緩存</string>
+    <string name="global_download_select_quality">選擇畫質</string>
+    <string name="global_view_cache_video">查看緩存視頻</string>
+    <string name="global_video_has_downloaded_hint">該視頻已下載</string>
+    <string name="global_have_alread_add_to_list">已加入緩存清單</string>
+    <string name="theme_lock_quick_live_desc">點擊解鎖 揭秘風雲變化的市場</string>
+
+    <string name="premium_platinum_club">見智鉑金</string>
+    <string name="premium_master_course_club">大師課</string>
+    <string name="premium_dehydration_club">脫水研報</string>
+    <string name="premium_dehydration_gold">VIP会员</string>
+    <string name="premium_black_for_free">黑卡</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/day_mode_background_color1_ffffff"
+    android:orientation="vertical">
+
+    <com.wallstreetcn.baseui.widget.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/listDividerLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0.5"
+        android:background="@color/day_mode_divide_line_color_e6e6e6" />
+
+    <com.wallstreetcn.baseui.customView.PullToRefreshCustomRecyclerView
+        android:id="@+id/recycleView"
+        style="@style/ptr_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

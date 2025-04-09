@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SetItem">
+        <attr name="type">
+            <enum name="none" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="checkbox" value="2" />
+            <enum name="checked" value="3" />
+        </attr>
+        <attr name="leftImageDrawable" format="boolean" />
+        <attr name="leftText" format="string" />
+        <attr name="rightText" format="string" />
+        <attr name="isChecked" format="boolean" />
+        <attr name="arrowResId" format="reference|color" />
+        <attr name="checkboxId" format="integer" />
+        <attr name="leftTextSize" format="dimension" />
+        <attr name="rightTextSize" format="dimension" />
+        <attr name="tvLeftMargin" format="dimension" />
+        <attr name="tvRightMargin" format="dimension" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="rightTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MobileAndWeiboView">
+        <attr name="textcolor" format="color|reference" />
+        <attr name="leftIconColor" format="color|reference" />
+        <attr name="rightIconColor" format="color|reference" />
+        <attr name="leftTextStr" format="string" />
+        <attr name="rightTextStr" format="string" />
+        <attr name="leftIconText" format="string|reference" />
+        <attr name="rightIconText" format="string|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="settingItemETview">
+        <attr name="leftTextValue" format="string" />
+        <attr name="hintText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="virtualLine">
+        <attr name="isHorizontal" format="boolean" />
+        <attr name="lineColor" format="color|reference" />
+        <attr name="dashWidth" format="dimension" />
+        <attr name="dashGap" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="StickyScrollView">
+        <attr name="stuckShadowHeight" format="dimension" />
+        <attr name="stuckShadowDrawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="calendarSelect">
+        <attr name="select_type">
+            <enum name="single" value="1" />
+            <enum name="mult" value="2" />
+        </attr>
+        <attr name="locate_position">
+            <enum name="start" value="0" />
+            <enum name="today" value="1" />
+            <enum name="end" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ProgressImageView">
+        <attr name="pi_progress" format="integer" />
+        <attr name="pi_mask_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SlideDetailsLayout">
+        <!-- float value for indicate the moment of switch panel-->
+        <attr name="percent" format="float" />
+        <!-- how long the animation keep-->
+        <attr name="duration" format="integer" />
+        <!-- default panel to show after init-->
+        <attr name="default_panel" format="enum">
+            <enum name="front" value="0" />
+            <enum name="behind" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MaxHeightRv">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="fund_radar">
+        <!--标识雷达图有多少条边(标识几边形)， 必须是大于等于3的-->
+        <attr name="edge_num" format="integer"/>
+        <!-- 标识画好的雷达图需要旋转多少度（初始状态是在x轴下方画一条是平行于x轴的） -->
+        <attr name="rotate_degree" format="float"/>
+        <!--雷达图上面一圈一圈的线条颜色值-->
+        <attr name="radar_line_color" format="color|reference"/>
+        <!-- 雷达图盘面上的线条颜色值 -->
+        <attr name="radar_line_width" format="dimension|reference"/>
+        <!-- 雷达图最下面一层的颜色值 -->
+        <attr name="radar_bg_color" format="color|reference"/>
+        <!-- 雷达图每一边的长度 -->
+        <attr name="edge_length" format="dimension|reference"/>
+        <!-- 雷达图有多少层 -->
+        <attr name="layer_num" format="integer"/>
+        <!--文本到雷达图的距离-->
+        <attr name="text_margin_radar" format="dimension|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="MarqueeViewStyle">
+        <attr name="mvInterval" format="integer|reference" />
+        <attr name="mvAnimDuration" format="integer|reference" />
+        <attr name="mvTextSize" format="dimension|reference" />
+        <attr name="mvTextColor" format="color|reference" />
+        <attr name="mvSingleLine" format="boolean" />
+        <attr name="mvMaxLines" format="integer" />
+        <attr name="mvGravity">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="mvDirection">
+            <enum name="bottom_to_top" value="0" />
+            <enum name="top_to_bottom" value="1" />
+            <enum name="right_to_left" value="2" />
+            <enum name="left_to_right" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>

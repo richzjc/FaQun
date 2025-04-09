@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SkinnableLinearLayout控件 -->
+    <declare-styleable name="SkinnableLinearLayout">
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <declare-styleable name="all_view">
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <declare-styleable name="skin_titlebar">
+        <attr name="titleTextColor" />
+        <attr name="iconBackColor" />
+        <attr name="rightBtn1Color"/>
+        <attr name="rightBtn2Color"/>
+        <attr name="android:background"/>
+    </declare-styleable>
+
+    <declare-styleable name="skin_SetItem">
+        <attr name="leftTextColor"/>
+        <attr name="rightTextColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="skin_rmSwither">
+        <attr name="switchBkgCheckedColor"/>
+        <attr name="switchBkgNotCheckedColor"/>
+        <attr name="switchToggleCheckedColor"/>
+        <attr name="switchToggleNotCheckedColor"/>
+    </declare-styleable>
+
+    <!-- 后续架构师拓展………………………………………………………………………… -->
+
+</resources>

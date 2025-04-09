@@ -1,0 +1,103 @@
+apply from: "../config.gradle"
+project.ext.setAppDefaultConfig project
+
+android {
+    compileSdk ANDROID_TARGET_VERSION as int
+    namespace 'com.faqun'
+
+    defaultConfig {
+        applicationId "com.faqun.a"
+        minSdk ANDROID_MIN_VERSION as int
+        targetSdk ANDROID_TARGET_VERSION as int
+        versionCode VERSION_CODE as int
+        versionName VERSION_NAME
+        multiDexEnabled true
+        multiDexKeepProguard file("../main_dex_list.pro")
+
+        ndk {
+            abiFilters 'arm64-v8a'
+//            abiFilters 'armeabi-v7a', 'arm64-v8a'
+//            abiFilters 'armeabi-v7a', 'x86'
+        }
+
+        resConfigs "zh-rTW"
+    }
+
+    lintOptions {
+        abortOnError false
+        disable 'MissingTranslation'
+    }
+    dexOptions {
+        javaMaxHeapSize "5g"
+    }
+    signingConfigs {
+        debug {
+            storeFile file("../faqun.jks")
+            storePassword MEDUSA_KEYSTORE_PASS
+            keyAlias MEDUSA_ALIAS_NAME
+            keyPassword MEDUSA_ALIAS_PASS
+            v2SigningEnabled true
+        }
+
+        release {
+            storeFile file("../faqun.jks")
+            storePassword MEDUSA_KEYSTORE_PASS
+            keyAlias MEDUSA_ALIAS_NAME
+            keyPassword MEDUSA_ALIAS_PASS
+            v2SigningEnabled true
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    viewBinding {
+        enabled = true
+    }
+    buildTypes {
+        release {
+            debuggable false
+            signingConfig signingConfigs.release
+            //是否混淆
+            minifyEnabled true
+            //disZipalign优化
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), '../proguard-rules.pro'
+        }
+
+        debug {
+            jniDebuggable false
+            //applicationIdSuffix ".debug"
+            versionNameSuffix "-debug"
+            signingConfig signingConfigs.debug
+            //是否混淆
+            minifyEnabled false
+            //Zipalign优化
+            zipAlignEnabled false
+            // 移除无用的resource文件
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), '../proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    debugApi libs.stetho
+    debugApi libs.stethoOkhttp
+    implementation project(':WallstreetGlobal')
+    implementation project(':Webview')
+    implementation project(':Helper')
+}
+
+

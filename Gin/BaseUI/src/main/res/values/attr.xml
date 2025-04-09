@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="customTextView">
+        <attr name="fontScaleResource" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="actionbar">
+        <attr name="titleTextColor" format="color"/>
+        <attr name="titleText" format="string" />
+        <attr name="iconBackColor" format="color" />
+        <attr name="iconBackText" format="string" />
+        <attr name="iconBackVisible" format="boolean" />
+        <attr name="rightBtn1Text" format="string" />
+        <attr name="rightBtn1Color" format="color" />
+        <attr name="rightBtn2Text" format="string" />
+        <attr name="rightBtn2Color" format="color" />
+        <attr name="isMarquee" format="boolean" />
+        <attr name="statusBarPadding" format="boolean"/>
+        <attr name="android:background" />
+    </declare-styleable>
+    <declare-styleable name="OverlayImageView">
+        <attr name="overlayAlpha" format="integer" />
+        <attr name="overlayColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckIconView" parent="IConView">
+        <attr name="checkedTxt" format="string" />
+        <attr name="uncheckedTxt" format="string" />
+        <attr name="colorChecked" format="color" />
+        <attr name="colorUnChecked" format="color" />
+        <attr name="checked" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="imageHtmlLayout">
+        <attr name="htmlTextColor" format="color" />
+        <attr name="htmlTextSize" format="dimension" />
+        <attr name="htmlLineSpace" format="dimension" />
+        <attr name="htmlEnableToggle" format="boolean"/>
+        <attr name="htmlMaxLineOnShrink" format="integer"/>
+        <attr name="htmlEnableShrink" format="boolean"/>
+        <attr name="htmlPspace" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="RefreshView">
+        <attr name="refreshViewType" format="enum">
+            <enum name="sun" value="0" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="etv_MaxLinesOnShrink" format="reference|integer" />
+        <attr name="etv_EllipsisHint" format="reference|string" /><!--default is ..-->
+        <attr name="etv_ToExpandHint" format="reference|string" /><!--"to expand" hint string, default is "Expand"-->
+        <attr name="etv_ToShrinkHint" format="reference|string" /><!--"to shrink" hint string, default is "Shrink"-->
+        <attr name="etv_GapToExpandHint" format="reference|string" /><!--gap between "toExpandHint" and "trimmed text"-->
+        <attr name="etv_GapToShrinkHint" format="reference|string" /><!--gap between "toShrinkHint" and "trimmed text"-->
+        <attr name="etv_EnableToggle" format="reference|boolean" /><!--if toggle the state when click ExpandTextView-->
+        <attr name="etv_ToExpandHintShow" format="reference|boolean" /><!--if show "toExpandHint"-->
+        <attr name="etv_ToShrinkHintShow" format="reference|boolean" /><!--if show "toShrinkHint"-->
+        <attr name="etv_ToExpandHintColor" format="reference|color" /><!--text color of "toExpandHint"-->
+        <attr name="etv_ToShrinkHintColor" format="reference|color" /><!--text color of "toShrinkHint"-->
+        <attr name="etv_ToExpandHintColorBgPressed" format="reference|color" /><!--background color if "toExpandHint" pressed-->
+        <attr name="etv_ToShrinkHintColorBgPressed" format="reference|color" /><!--background color if "toShrinkHint" pressed-->
+        <attr name="etv_enableHintToggle" format="reference|boolean"/>
+        <attr name="etv_InitState" format="enum"><!--init state, default is shrink-->
+            <enum name="shrink" value="0" />
+            <enum name="expand" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="NiceImageView">
+        <attr name="is_circle" format="boolean" />
+        <attr name="is_cover_src" format="boolean" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="corner_top_left_radius" format="dimension" />
+        <attr name="corner_top_right_radius" format="dimension" />
+        <attr name="corner_bottom_left_radius" format="dimension" />
+        <attr name="corner_bottom_right_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="inner_border_width" format="dimension" />
+        <attr name="inner_border_color" format="color" />
+        <attr name="mask_color" format="color" />
+    </declare-styleable>
+
+</resources>

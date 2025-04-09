@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3" xmlns:ns1="http://schemas.android.com/tools"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res"><file name="text_font_resize" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/text_font_resize.webp" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="share_note" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/share_note.webp" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="operation_copy" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/operation_copy.webp" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="global_comment_share" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/global_comment_share.webp" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="wscn_logo_no_eng" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/wscn_logo_no_eng.png" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="share_more" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/share_more.webp" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="global_comment_unliked" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/global_comment_unliked.webp" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="news_detail_attitude_shadow_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/news_detail_attitude_shadow_bg.9.png" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="operation_browser" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/operation_browser.webp" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="share_unfav" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/share_unfav.webp" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="share_night_change" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/share_night_change.png" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="share_poster" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/share_poster.png" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="save_native" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/save_native.webp" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="global_comment_liked" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/global_comment_liked.webp" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="report" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/report.webp" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="global_drawable_comment" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/global_drawable_comment.webp" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="share_fav" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-night-xxhdpi/share_fav.webp" qualifiers="night-xxhdpi-v8" type="drawable"/><file name="anim_bottom_out" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/anim/anim_bottom_out.xml" qualifiers="" type="anim"/><file name="anim_top_in" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/anim/anim_top_in.xml" qualifiers="" type="anim"/><file name="anim_top_out" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/anim/anim_top_out.xml" qualifiers="" type="anim"/><file name="anim_bottom_in" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/anim/anim_bottom_in.xml" qualifiers="" type="anim"/><file name="anim_left_in" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/anim/anim_left_in.xml" qualifiers="" type="anim"/><file name="anim_left_out" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/anim/anim_left_out.xml" qualifiers="" type="anim"/><file name="anim_right_in" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/anim/anim_right_in.xml" qualifiers="" type="anim"/><file name="anim_right_out" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/anim/anim_right_out.xml" qualifiers="" type="anim"/><file path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/values-zh-rTW/strings.xml" qualifiers="zh-rTW"><string name="close">關閉</string><string name="edittext_with_del_hint">輸入你感興趣的內容</string><string name="wall_global_news_slogan">見聞快訊</string><string name="wall_global_custome_time">自定義時間</string><string name="wall_global_date_of_day">日</string><string name="wall_global_date_of_monday">一</string><string name="wall_global_date_of_tue">二</string><string name="wall_global_date_of_wend">三</string><string name="wall_global_date_of_thu">四</string><string name="wall_global_date_of_fri">五</string><string name="wall_global_date_of_sta">六</string><string name="wall_global_date_of_sun">清除</string><string name="wall_global_complete_text">完成</string><string name="wall_global_pdf_reader">PDF閱讀器</string><string name="wall_global_input_real_name">請輸入真實姓名</string><string name="wall_global_march_2018">2018年3月</string><string name="wall_global_share_to_frient">分享給朋友</string><string name="wall_global_selelcted_channal">已選頻道</string><string name="wall_global_drag_and_sort">长按拖动排序</string><string name="wall_global_unselected_channel">未選頻道</string><string name="wall_global_save_text">保存</string><string name="wall_global_delete_text">删除</string><string name="wall_global_original_text">原文</string><string name="wall_global_publish_your_opinion">發表你的看法</string><string name="wall_global_read_word_size">字體大小</string><string name="wall_global_more_text">更多</string><string name="wall_global_breaking_text">突發：</string><string name="wall_global_wall_name">華爾街見聞</string><string name="wall_global_wall_global_slogan">全球金融市場報導·財經資訊</string><string name="wall_global_information_channels">資訊·快訊·行情·日曆</string><string name="wall_global_qrcode_tips">長按二維碼識別獲得投資先機</string><string name="wall_global_select_date">選擇日期</string><string name="wall_global_end_time_not_eaelier_start">結束時間不能早於開始時間</string><string name="wall_global_start_time">起始日期</string><string name="wall_global_today">今天</string><string name="wall_global_end_time">結束日期</string><string name="wall_global_input_time_not_empty">傳入的行事曆是不能為空的</string><string name="wall_global_data_not_empty">資料來源是不能為空的</string><string name="wall_global_pay_channel">PREMIUM知識付費頻道</string><string name="wall_global_bitmap_exception">生成圖片异常</string><string name="wall_global_save_success">保存成功</string><string name="wall_global_permission_sd">請先允許SD卡許可權</string><string name="wall_global_must_observerid">必須要傳ObserverId</string><string name="wall_global_start_end_time_not_null">起止時間不能為零</string><string name="wall_global_selecte_time">請選擇日期</string><string name="wall_global_select_start_time">請選擇起始日期</string><string name="wall_global_select_end_time">請選擇結束日期</string><string name="wall_global_wall_name_prefix">【華爾街見聞</string><string name="wall_global_comments_deleted_tip">[評論已删除]</string><string name="wall_global_forever_text">永久</string><string name="wall_global_date_of_month">月</string><string name="wall_global_date_of_spring">季</string><string name="wall_global_date_of_half_year">半年</string><string name="wall_global_date_of_year">年</string><string name="wall_global_date_of_7_day">七天</string><string name="wall_global_date_of_1_month">一個月</string><string name="wall_global_date_of_3_month">三個月</string><string name="wall_global_date_of_1_year">一年</string><string name="wall_global_date_of_1_spring">一季</string><string name="wall_global_date_of_forever_subscribe">永久訂閱</string><string name="wall_global_date_of_month_subscribe">月度訂閱</string><string name="wall_global_date_of_spring_subscribe">季度訂閱</string><string name="wall_global_date_of_half_year_subscribe">半年訂閱</string><string name="wall_global_date_of_year_subscribe">年度訂閱</string><string name="wall_global_date_of_7_day_subscribe">七天訂閱</string><string name="wall_global_weixin_friend">微信好友</string><string name="wall_global_sina_weibo">新浪微博</string><string name="wall_global_weixin_circle">朋友圈</string><string name="wall_global_night_mode">夜間模式</string><string name="wall_global_share_frome">\n分享自「華爾街見聞」APP</string><string name="wall_global_m_d_h_m">M月d日HH:mm</string><string name="wall_global_get_7_24_news">獲取全球市場7x24實时滾動播報</string><string name="wall_global_fav_text">收藏</string><string name="wall_global_note_text">筆記</string><string name="wall_global_breaking_news">突發新聞</string><string name="wall_global_purchased_text">已購 | </string><string name="wall_global_trail_reading">試讀 | </string><string name="wall_global_premium_text">付費 | </string><string name="wall_global_flash_text">快訊</string><string name="wall_global_ad_text">广告</string><string name="global_push_feedback_tips">如果您收不到推送消息，可以將設備資訊回饋給我們，我們幫您處理</string><string name="global_push_feedback">回饋</string><string name="theme_my_subscribe">我的關注</string><string name="view_original_pic">查看原圖</string><string name="global_search_footer_view_all">查看全部</string><string name="global_search_footer_unit_result">條結果</string><string name="global_save_local">保存到本地</string><string name="news_detail_share_article_follow">本文來自主題【%s】，點擊查看更多精彩內容</string><string name="news_detail_live_share_content">來自【%s】主題</string><string name="live_vip_content">華爾街見聞VIP快訊，到達更快，解析更深</string><string name="premium_more">更多</string><string name="premium_wechat_poster">微信海報</string><string name="premium_wechat_circle_poster">朋友圈海報</string><string name="premium_generate_pic_exception">生成圖片异常</string><string name="premium_share_to_wallstreet">分享自「華爾街見聞」APP</string><string name="global_live_share_line1_desc">全球金融市場報導·財經資訊</string><string name="global_live_share_line3_desc">長按二維碼識別獲得投資先機</string><string name="global_live_share_line2_desc">资讯·研究·行情·日历</string><string name="global_generate_poster">生成海報</string><string name="global_title_share_poster">分享海報</string><string name="theme_share_title_follow">推薦關注【%s】</string><string name="live_click_vip_unlock"> 點擊解鎖</string><string name="premium_book_unit">本</string><string name="premium_coupons_unit">席</string><string name="premium_piece_unit">件</string><string name="find_date_format_yyyymmdd_text">yyyy年MM月dd日</string><string name="premium_physical_remain">還剩%1$s%2$s</string><string name="premium_have_sold_out">已售罄</string><string name="premium_purchase_count">購買數量</string><string name="premium_physical_intro">實物介紹 </string><string name="premium_spec">規格</string><string name="order_purchases_number_than_one">購買數量不能小於1</string><string name="order_number_text">數量</string><string name="premium_sold_out">該商品已售罄，暫無法購買</string><string name="interactive_comment_list_reply">回復 %1$s</string><string name="interactive_comment_send">發送</string><string name="theme_int_add_comment">添加評論</string><string name="global_download_cache">下載緩存</string><string name="global_download_select_quality">選擇畫質</string><string name="global_view_cache_video">查看緩存視頻</string><string name="global_video_has_downloaded_hint">該視頻已下載</string><string name="global_have_alread_add_to_list">已加入緩存清單</string><string name="theme_lock_quick_live_desc">點擊解鎖 揭秘風雲變化的市場</string><string name="premium_platinum_club">見智鉑金</string><string name="premium_master_course_club">大師課</string><string name="premium_dehydration_club">脫水研報</string><string name="premium_dehydration_gold">VIP会员</string><string name="premium_black_for_free">黑卡</string></file><file name="live_huoxian_item_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/live_huoxian_item_bg.xml" qualifiers="" type="drawable"/><file name="achieve_parent_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/achieve_parent_bg.xml" qualifiers="" type="drawable"/><file name="shap_r5_999999" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/shap_r5_999999.xml" qualifiers="" type="drawable"/><file name="int_news_live_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/int_news_live_bg.xml" qualifiers="" type="drawable"/><file name="global_drawable_circle_todayt" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_circle_todayt.xml" qualifiers="" type="drawable"/><file name="shape_int_comment_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/shape_int_comment_bg.xml" qualifiers="" type="drawable"/><file name="global_drawable_like_unlike_dot" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_like_unlike_dot.xml" qualifiers="" type="drawable"/><file name="shape_news_tagview" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/shape_news_tagview.xml" qualifiers="" type="drawable"/><file name="global_rect_eeeeee" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_rect_eeeeee.xml" qualifiers="" type="drawable"/><file name="shape_gallery_image_indicator" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/shape_gallery_image_indicator.xml" qualifiers="" type="drawable"/><file name="global_drawable_channel_unselect_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_channel_unselect_bg.xml" qualifiers="" type="drawable"/><file name="shape_item_news_more" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/shape_item_news_more.xml" qualifiers="" type="drawable"/><file name="global_drawable_select_time" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_select_time.xml" qualifiers="" type="drawable"/><file name="note_share_article_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/note_share_article_bg.xml" qualifiers="" type="drawable"/><file name="global_rect_white" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_rect_white.xml" qualifiers="" type="drawable"/><file name="member_drawable_vip_buy_unselect" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/member_drawable_vip_buy_unselect.xml" qualifiers="" type="drawable"/><file name="global_shape_red_dot_tag" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_shape_red_dot_tag.xml" qualifiers="" type="drawable"/><file name="news_drawable_comment_count" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/news_drawable_comment_count.xml" qualifiers="" type="drawable"/><file name="global_renew_tag_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_renew_tag_bg.xml" qualifiers="" type="drawable"/><file name="achieve_btn_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/achieve_btn_bg.xml" qualifiers="" type="drawable"/><file name="paid_drawable_topic_detail_top" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/paid_drawable_topic_detail_top.xml" qualifiers="" type="drawable"/><file name="drawable_gaia_badgeprogressbar" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/drawable_gaia_badgeprogressbar.xml" qualifiers="" type="drawable"/><file name="theme_live_vip_locked_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/theme_live_vip_locked_bg.xml" qualifiers="" type="drawable"/><file name="shape_news_premium" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/shape_news_premium.xml" qualifiers="" type="drawable"/><file name="global_drawable_calendar_handle_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_calendar_handle_bg.xml" qualifiers="" type="drawable"/><file name="global_drawable_cb_bg_2" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_cb_bg_2.xml" qualifiers="" type="drawable"/><file name="global_rect_color_f73a2d" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_rect_color_f73a2d.xml" qualifiers="" type="drawable"/><file name="shape_gallery_image" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/shape_gallery_image.xml" qualifiers="" type="drawable"/><file name="shape_spec_parent_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/shape_spec_parent_bg.xml" qualifiers="" type="drawable"/><file name="member_drawable_vip_buy_select" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/member_drawable_vip_buy_select.xml" qualifiers="" type="drawable"/><file name="global_drawable_channel_dialog_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_channel_dialog_bg.xml" qualifiers="" type="drawable"/><file name="paid_drawable_spec_spu_tv_sold_out" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/paid_drawable_spec_spu_tv_sold_out.xml" qualifiers="" type="drawable"/><file name="paid_drawable_add_to_cart" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/paid_drawable_add_to_cart.xml" qualifiers="" type="drawable"/><file name="shape_edit_text" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/shape_edit_text.xml" qualifiers="" type="drawable"/><file name="paid_drawable_spec_spu_tv_unselected" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/paid_drawable_spec_spu_tv_unselected.xml" qualifiers="" type="drawable"/><file name="global_drawable_calendar_has_data_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_calendar_has_data_bg.xml" qualifiers="" type="drawable"/><file name="global_checkbox_switch" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_checkbox_switch.xml" qualifiers="" type="drawable"/><file name="global_drawable_cache_empty_btn" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_cache_empty_btn.xml" qualifiers="" type="drawable"/><file name="global_drawable_circle_select" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_circle_select.xml" qualifiers="" type="drawable"/><file name="live_text_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/live_text_bg.xml" qualifiers="" type="drawable"/><file name="bg_circle_white" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/bg_circle_white.xml" qualifiers="" type="drawable"/><file name="global_rect_white_day" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_rect_white_day.xml" qualifiers="" type="drawable"/><file name="global_drawable_circle_gray" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_circle_gray.xml" qualifiers="" type="drawable"/><file name="global_shape_red_dot" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_shape_red_dot.xml" qualifiers="" type="drawable"/><file name="global_play_action_bar_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_play_action_bar_bg.xml" qualifiers="" type="drawable"/><file name="global_rect_color_ff5858" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_rect_color_ff5858.xml" qualifiers="" type="drawable"/><file name="order_drawable_rectangle_1482f0" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/order_drawable_rectangle_1482f0.xml" qualifiers="" type="drawable"/><file name="news_live_dialog_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/news_live_dialog_bg.xml" qualifiers="" type="drawable"/><file name="paid_drawable_spec_spu_tv_selected" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/paid_drawable_spec_spu_tv_selected.xml" qualifiers="" type="drawable"/><file name="paid_drawable_topic_detail_bottom" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/paid_drawable_topic_detail_bottom.xml" qualifiers="" type="drawable"/><file name="shape_discuss_alpha_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/shape_discuss_alpha_bg.xml" qualifiers="" type="drawable"/><file name="global_drawable_home_article_video_controller" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_home_article_video_controller.xml" qualifiers="" type="drawable"/><file name="global_drawable_not_confirm" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_not_confirm.xml" qualifiers="" type="drawable"/><file name="global_rect_color_bf8c4f_e1be84" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_rect_color_bf8c4f_e1be84.xml" qualifiers="" type="drawable"/><file name="shape_live_tag" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/shape_live_tag.xml" qualifiers="" type="drawable"/><file name="drawable_night_change_selected" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/drawable_night_change_selected.xml" qualifiers="" type="drawable"/><file name="member_rect_color_eed69d_d6ad64" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/member_rect_color_eed69d_d6ad64.xml" qualifiers="" type="drawable"/><file name="live_title_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/live_title_bg.xml" qualifiers="" type="drawable"/><file name="member_sub_shap_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/member_sub_shap_bg.xml" qualifiers="" type="drawable"/><file name="full_subtract_confirm_buy_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/full_subtract_confirm_buy_bg.xml" qualifiers="" type="drawable"/><file name="ad_main_close_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/ad_main_close_bg.xml" qualifiers="" type="drawable"/><file name="shape_news_trial" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/shape_news_trial.xml" qualifiers="" type="drawable"/><file name="global_drawable_cb_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_cb_bg.xml" qualifiers="" type="drawable"/><file name="global_shape_download_btn_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_shape_download_btn_bg.xml" qualifiers="" type="drawable"/><file name="rect_shape_top_white" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/rect_shape_top_white.xml" qualifiers="" type="drawable"/><file name="global_drawable_channel_select_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_channel_select_bg.xml" qualifiers="" type="drawable"/><file name="order_buy_num_border" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/order_buy_num_border.xml" qualifiers="" type="drawable"/><file name="global_rect_message_center" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_rect_message_center.xml" qualifiers="" type="drawable"/><file name="cancel_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/cancel_bg.xml" qualifiers="" type="drawable"/><file name="global_rect_color_right_cornor" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_rect_color_right_cornor.xml" qualifiers="" type="drawable"/><file name="global_drawable_end_time" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable/global_drawable_end_time.xml" qualifiers="" type="drawable"/><file name="global_set_item_view" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/layout/global_set_item_view.xml" qualifiers="" type="layout"/><file name="global_channel_righticon_color" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/color/global_channel_righticon_color.xml" qualifiers="" type="color"/><file name="global_channel_lefticon_color" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/color/global_channel_lefticon_color.xml" qualifiers="" type="color"/><file path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/values-night/color.xml" qualifiers="night-v8"><color name="day_mode_premium_bottom_leftcolor">#686F80</color><color name="sticky_channel_select_item_bg">#303030</color><color name="day_mode_color_gold_entry_tv">#C78E49</color></file><file path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/values/emoji.xml" qualifiers=""><string-array name="emojiArray">
+        <item>😀</item>
+        <item>😁</item>
+        <item>😂</item>
+        <item>😃</item>
+        <item>😄</item>
+        <item>😅</item>
+        <item>😆</item>
+        <item>😉</item>
+        <item>😊</item>
+        <item>😋</item>
+        <item>😎</item>
+        <item>😍</item>
+        <item>😘</item>
+        <item>😚</item>
+        <item>🙂</item>
+        <item>🤗</item>
+        <item>😐</item>
+        <item>😑</item>
+        <item>😶</item>
+        <item>🙄</item>
+        <item>😏</item>
+        <item>😣</item>
+        <item>😥</item>
+        <item>😮</item>
+        <item>🤐</item>
+        <item>😴</item>
+        <item>😜</item>
+        <item>😒</item>
+        <item>😓</item>
+        <item>😔</item>
+        <item>🤑</item>
+        <item>🙁</item>
+        <item>🙃</item>
+        <item>😤</item>
+        <item>😭</item>
+        <item>😳</item>
+        <item>😠</item>
+        <item>😷</item>
+        <item>🤕</item>
+        <item>🤓</item>
+        <item>👿</item>
+        <item>👻</item>
+        <item>🙅</item>
+        <item>💁</item>
+        <item>🙋</item>
+        <item>🚶</item>
+        <item>🏃</item>
+        <item>💃</item>
+        <item>👯</item>
+        <item>🏄</item>
+        <item>🚣</item>
+        <item>🏊</item>
+        <item>👫</item>
+        <item>💪</item>
+        <item>👈</item>
+        <item>👉</item>
+        <item>☝</item>
+        <item>✌</item>
+        <item>🤘</item>
+        <item>👌</item>
+        <item>👍</item>
+        <item>👏</item>
+        <item>🙏</item>
+        <item>👀</item>
+        <item>❤</item>
+        <item>💣</item>
+        <item>💐</item>
+        <item>🍗</item>
+        <item>🍾</item>
+        <item>🍻</item>
+        <item>☕</item>
+        <item>🎂</item>
+        <item>🌚</item>
+        <item>🎃</item>
+        <item>🎄</item>
+        <item>⚽</item>
+        <item>🏀</item>
+    </string-array><string name="icon_emoji_delete"></string></file><file path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/values/styles.xml" qualifiers=""><style name="set_item_leftTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:layout_marginLeft">@dimen/margin_dp15</item>
+        <item name="android:visibility">gone</item>
+    </style><style name="set_item_redDot">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_dp5</item>
+        <item name="android:layout_marginTop">@dimen/margin_dp13</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:src">@drawable/badge_more</item>
+    </style><style name="set_item_arrow">
+        <item name="android:layout_height">@dimen/margin_dp15</item>
+        <item name="android:layout_width">@dimen/margin_dp10</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/user_center_arrow</item>
+        <item name="android:layout_marginRight">@dimen/margin_dp20</item>
+        <item name="android:visibility">invisible</item>
+    </style><style name="set_item_checkbox" parent="Base.Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:button">@drawable/global_checkbox_switch</item>
+        <item name="android:layout_marginRight">@dimen/margin_dp12</item>
+        <item name="android:visibility">gone</item>
+    </style><style name="set_item_checked">
+        <item name="android:layout_height">@dimen/margin_dp15</item>
+        <item name="android:layout_width">@dimen/margin_dp15</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/global_drawable_confirm</item>
+        <item name="android:layout_marginRight">@dimen/margin_dp10</item>
+        <item name="android:visibility">gone</item>
+    </style><style name="set_item_rightTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">@dimen/margin_dp10</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:visibility">gone</item>
+    </style><style name="loading_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style><style name="pay_tv_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_dp22</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/margin_dp13</item>
+        <item name="android:layout_marginRight">@dimen/margin_dp13</item>
+    </style><style name="bottom_btn_parent_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_dp25</item>
+        <item name="android:layout_marginRight">@dimen/margin_dp10</item>
+        <item name="android:layout_marginTop">@dimen/margin_dp30</item>
+        <item name="android:layout_marginBottom">@dimen/margin_dp15</item>
+        <item name="android:orientation">horizontal</item>
+    </style><style name="wx_pay_btn_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/margin_dp40</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+    </style><style name="add_friends_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style><style name="edit_text_with_del">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/margin_dp30</item>
+        <item name="android:layout_marginLeft">@dimen/margin_dp15</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:drawableRight">@drawable/user_close_img</item>
+        <item name="android:drawablePadding">@dimen/margin_dp15</item>
+        <item name="android:drawableLeft">@drawable/user_search_img</item>
+        <item name="android:hint">@string/edittext_with_del_hint</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:paddingLeft">@dimen/margin_dp10</item>
+        <item name="android:paddingRight">@dimen/margin_dp10</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/day_mode_text_color1_333333</item>
+        <item name="android:textColorHint">@color/day_mode_text_color3_999999</item>
+        <item name="android:textCursorDrawable">@drawable/search_cursor_color</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+    </style><style name="news_detail_bottom_iconview">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/day_mode_text_color1_333333</item>
+        <item name="android:textSize">@dimen/text_size_22</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style><style name="global_style_select_time">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/day_mode_text_color1_333333</item>
+        <item name="android:textSize">16sp</item>
+    </style><style name="global_style_week">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/day_mode_text_color3_999999</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style><declare-styleable name="CornersButton">
+        <attr format="reference|dimension" name="btn_strokeWidth"/>
+        <attr format="reference|color" name="btn_strokeColor"/>
+        <attr format="reference|boolean" name="btn_blur"/>
+        <attr format="reference|dimension" name="btn_cornerRadius"/>
+        <attr format="reference|color" name="btn_unpressColor"/>
+        <attr format="reference|color" name="btn_pressColor"/>
+        <attr format="reference|color" name="btn_text_unpressColor"/>
+        <attr format="reference|color" name="btn_text_pressColor"/>
+
+        <attr format="reference|boolean" name="use_fiance_font"/>
+
+        <attr format="reference|dimension" name="btn_leftTopRadius"/>
+        <attr format="reference|dimension" name="btn_leftBottomRadius"/>
+        <attr format="reference|dimension" name="btn_rightTopRadius"/>
+        <attr format="reference|dimension" name="btn_rightBottomRadius"/>
+    </declare-styleable></file><file path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/values/global_recycler_scrollbar_attr.xml" qualifiers=""><declare-styleable name="RecyclerViewScrollBar">
+        <attr format="reference|color" name="rsbTrackDrawable"/>
+        <attr format="reference|color" name="rsbThumbDrawable"/>
+        <attr format="dimension" name="rsbRadio"/>
+        <attr format="color" name="rsbTrackColor"/>
+        <attr format="color" name="rsbThumbColor"/>
+        <attr format="enum" name="rsbOrientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable></file><file path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">WallstreetGlobal</string><string name="wscnappconfig" translatable="false">wscnappconfig</string><string name="channel_add"></string><string name="channel_delete"></string><string name="search_item_show_time">%1$s | %2$s</string><string name="outer_title">%1$s年%2$s月</string><string name="share_download_url" translatable="false">https://wallstreetcn.com/download#from=app</string><string name="audio_play_bottom_behavior" translatable="false">com.wallstreetcn.podcast.widget.BottomNavigationBehavior</string><string name="close">关闭</string><string name="edittext_with_del_hint">输入你感兴趣的内容</string><string name="wall_global_news_slogan">见闻快讯</string><string name="wall_global_custome_time">自定义时间</string><string name="wall_global_date_of_day">日</string><string name="wall_global_date_of_monday">一</string><string name="wall_global_date_of_tue">二</string><string name="wall_global_date_of_wend">三</string><string name="wall_global_date_of_thu">四</string><string name="wall_global_date_of_fri">五</string><string name="wall_global_date_of_sta">六</string><string name="wall_global_date_of_sun">清除</string><string name="wall_global_complete_text">完成</string><string name="wall_global_pdf_reader">PDF阅读器</string><string name="wall_global_input_real_name">请输入真实姓名</string><string name="wall_global_march_2018">2018年3月</string><string name="wall_global_share_to_frient">分享给朋友</string><string name="wall_global_selelcted_channal">已选频道</string><string name="wall_global_drag_and_sort">长按拖动排序</string><string name="wall_global_unselected_channel">未选频道</string><string name="wall_global_save_text">保存</string><string name="wall_global_delete_text">删除</string><string name="wall_global_original_text">原文</string><string name="wall_global_publish_your_opinion">发表你的看法</string><string name="wall_global_read_word_size">字体大小</string><string name="wall_global_more_text">更多</string><string name="wall_global_breaking_text">突发:</string><string name="wall_global_wall_name">华尔街见闻</string><string name="wall_global_wall_global_slogan">全球金融市场报道·财经资讯</string><string name="wall_global_information_channels">资讯·研究·行情·日历</string><string name="wall_global_qrcode_tips">长按二维码识别 获得投资先机</string><string name="wall_global_select_date">选择日期</string><string name="wall_global_end_time_not_eaelier_start">结束时间不能早于开始时间</string><string name="wall_global_start_time">起始日期</string><string name="wall_global_today">今天</string><string name="wall_global_end_time">结束日期</string><string name="wall_global_input_time_not_empty">传入的日历是不能为空的</string><string name="wall_global_data_not_empty">数据源是不能为空的</string><string name="wall_global_pay_channel">PREMIUM知识付费频道</string><string name="wall_global_bitmap_exception">生成图片异常</string><string name="wall_global_save_success">保存成功</string><string name="wall_global_permission_sd">请先允许SD卡权限</string><string name="wall_global_must_observerid">必须要传ObserverId</string><string name="wall_global_start_end_time_not_null">起止时间不能为零</string><string name="wall_global_selecte_time">请选择日期</string><string name="wall_global_select_start_time">请选择起始日期</string><string name="wall_global_select_end_time">请选择结束日期</string><string name="wall_global_wall_name_prefix">【华尔街见闻</string><string name="wall_global_comments_deleted_tip">[评论已删除]</string><string name="wall_global_forever_text">永久</string><string name="wall_global_date_of_month">月</string><string name="wall_global_date_of_spring">季</string><string name="wall_global_date_of_half_year">半年</string><string name="wall_global_date_of_year">年</string><string name="wall_global_date_of_7_day">七天</string><string name="wall_global_date_of_1_month">一个月</string><string name="wall_global_date_of_3_month">三个月</string><string name="wall_global_date_of_1_year">一年</string><string name="wall_global_date_of_1_spring">一季</string><string name="wall_global_date_of_forever_subscribe">永久订阅</string><string name="wall_global_date_of_month_subscribe">月度订阅</string><string name="wall_global_date_of_spring_subscribe">季度订阅</string><string name="wall_global_date_of_half_year_subscribe">半年订阅</string><string name="wall_global_date_of_year_subscribe">年度订阅</string><string name="wall_global_date_of_7_day_subscribe">七天订阅</string><string name="wall_global_weixin_friend">微信好友</string><string name="wall_global_sina_weibo">新浪微博</string><string name="wall_global_weixin_circle">朋友圈</string><string name="wall_global_night_mode">夜间模式</string><string name="wall_global_share_frome">\n分享自「华尔街见闻」APP</string><string name="wall_global_m_d_h_m">M月d日  HH:mm</string><string name="wall_global_get_7_24_news">获取全球市场7x24实时滚动播报</string><string name="wall_global_fav_text">收藏</string><string name="wall_global_note_text">笔记</string><string name="wall_global_breaking_news">突发新闻</string><string name="wall_global_purchased_text">已购 | </string><string name="wall_global_trail_reading">试读 | </string><string name="wall_global_premium_text">付费 | </string><string name="wall_global_flash_text">快讯</string><string name="wall_global_ad_text">广告</string><string name="global_push_feedback_tips">如果您收不到推送消息，可以将设备信息反馈给我们，我们帮您处理</string><string name="global_push_feedback">反馈</string><string name="theme_my_subscribe">我的关注</string><string name="view_original_pic">查看原图</string><string name="global_search_footer_view_all">查看全部</string><string name="global_search_footer_unit_result">条结果</string><string name="live_room_live_not_started">直播还未开始，敬请期待</string><string name="live_room_in_live_living">· 直播中</string><string name="global_save_local">保存到本地</string><string name="news_detail_share_article_follow">本文来自主题【%s】，点击查看更多精彩内容</string><string name="news_detail_live_share_content">来自【%s】主题</string><string name="live_vip_content">华尔街见闻VIP快讯，到达更快，解析更深</string><string name="premium_more">更多</string><string name="premium_wechat_poster">微信海报</string><string name="premium_wechat_circle_poster">朋友圈海报</string><string name="global_generate_poster">生成海报</string><string name="premium_generate_pic_exception">生成图片异常</string><string name="premium_share_to_wallstreet">分享自「华尔街见闻」APP</string><string name="global_live_share_line1_desc">全球金融市场报道·财经资讯</string><string name="global_live_share_line2_desc">资讯·研究·行情·日历</string><string name="global_live_share_line3_desc">长按二维码识别 获得投资先机</string><string name="theme_share_title_follow">推荐关注【%s】</string><string name="global_title_share_poster">分享海报</string><string name="live_click_vip_unlock"> 点击解锁</string><string name="premium_book_unit">本</string><string name="premium_coupons_unit">席</string><string name="premium_piece_unit">件</string><string name="find_date_format_yyyymmdd_text">yyyy年MM月dd日</string><string name="premium_physical_remain">还剩%1$s%2$s</string><string name="premium_have_sold_out">已售罄</string><string name="premium_purchase_count">购买数量</string><string name="premium_physical_intro">实物介绍 </string><string name="premium_spec">规格</string><string name="order_purchases_number_than_one">购买数量不能小于1</string><string name="order_number_text">数量</string><string name="premium_sold_out">该商品已售罄,暂无法购买</string><string name="interactive_comment_list_reply">回复 %1$s</string><string name="interactive_comment_send">发送</string><string name="theme_int_add_comment">添加评论</string><string name="global_download_cache">下载缓存</string><string name="global_download_select_quality">选择画质</string><string name="global_view_cache_video">查看缓存视频</string><string name="global_video_has_downloaded_hint">该视频已下载</string><string name="global_have_alread_add_to_list">已加入缓存列表</string><string name="theme_lock_quick_live_desc">点击解锁 揭秘风云变化的市场</string><string name="discuss_post_permission">需要相关权限,请允许!</string><string name="premium_platinum_club">见智铂金</string><string name="premium_master_course_club">大师课</string><string name="premium_dehydration_club">脱水研报</string><string name="premium_dehydration_gold">VIP会员</string><string name="premium_black_for_free">黑卡</string><string name="setting_tersm_of_privacy">隐私政策</string><string name="ad_livenews_poster_share">wscn-ad-live-poster</string></file><file path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="SetItem">
+        <attr name="type">
+            <enum name="none" value="0"/>
+            <enum name="normal" value="1"/>
+            <enum name="checkbox" value="2"/>
+            <enum name="checked" value="3"/>
+        </attr>
+        <attr format="boolean" name="leftImageDrawable"/>
+        <attr format="string" name="leftText"/>
+        <attr format="string" name="rightText"/>
+        <attr format="boolean" name="isChecked"/>
+        <attr format="reference|color" name="arrowResId"/>
+        <attr format="integer" name="checkboxId"/>
+        <attr format="dimension" name="leftTextSize"/>
+        <attr format="dimension" name="rightTextSize"/>
+        <attr format="dimension" name="tvLeftMargin"/>
+        <attr format="dimension" name="tvRightMargin"/>
+        <attr format="color" name="leftTextColor"/>
+        <attr format="color" name="rightTextColor"/>
+    </declare-styleable><declare-styleable name="MobileAndWeiboView">
+        <attr format="color|reference" name="textcolor"/>
+        <attr format="color|reference" name="leftIconColor"/>
+        <attr format="color|reference" name="rightIconColor"/>
+        <attr format="string" name="leftTextStr"/>
+        <attr format="string" name="rightTextStr"/>
+        <attr format="string|reference" name="leftIconText"/>
+        <attr format="string|reference" name="rightIconText"/>
+    </declare-styleable><declare-styleable name="settingItemETview">
+        <attr format="string" name="leftTextValue"/>
+        <attr format="string" name="hintText"/>
+    </declare-styleable><declare-styleable name="virtualLine">
+        <attr format="boolean" name="isHorizontal"/>
+        <attr format="color|reference" name="lineColor"/>
+        <attr format="dimension" name="dashWidth"/>
+        <attr format="dimension" name="dashGap"/>
+    </declare-styleable><declare-styleable name="StickyScrollView">
+        <attr format="dimension" name="stuckShadowHeight"/>
+        <attr format="reference" name="stuckShadowDrawable"/>
+    </declare-styleable><declare-styleable name="calendarSelect">
+        <attr name="select_type">
+            <enum name="single" value="1"/>
+            <enum name="mult" value="2"/>
+        </attr>
+        <attr name="locate_position">
+            <enum name="start" value="0"/>
+            <enum name="today" value="1"/>
+            <enum name="end" value="2"/>
+        </attr>
+    </declare-styleable><declare-styleable name="ProgressImageView">
+        <attr format="integer" name="pi_progress"/>
+        <attr format="color" name="pi_mask_color"/>
+    </declare-styleable><declare-styleable name="SlideDetailsLayout">
+        
+        <attr format="float" name="percent"/>
+        
+        <attr format="integer" name="duration"/>
+        
+        <attr format="enum" name="default_panel">
+            <enum name="front" value="0"/>
+            <enum name="behind" value="1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="MaxHeightRv">
+        <attr format="dimension" name="maxHeight"/>
+    </declare-styleable><declare-styleable name="fund_radar">
+        
+        <attr format="integer" name="edge_num"/>
+        
+        <attr format="float" name="rotate_degree"/>
+        
+        <attr format="color|reference" name="radar_line_color"/>
+        
+        <attr format="dimension|reference" name="radar_line_width"/>
+        
+        <attr format="color|reference" name="radar_bg_color"/>
+        
+        <attr format="dimension|reference" name="edge_length"/>
+        
+        <attr format="integer" name="layer_num"/>
+        
+        <attr format="dimension|reference" name="text_margin_radar"/>
+    </declare-styleable><declare-styleable name="MarqueeViewStyle">
+        <attr format="integer|reference" name="mvInterval"/>
+        <attr format="integer|reference" name="mvAnimDuration"/>
+        <attr format="dimension|reference" name="mvTextSize"/>
+        <attr format="color|reference" name="mvTextColor"/>
+        <attr format="boolean" name="mvSingleLine"/>
+        <attr format="integer" name="mvMaxLines"/>
+        <attr name="mvGravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="mvDirection">
+            <enum name="bottom_to_top" value="0"/>
+            <enum name="top_to_bottom" value="1"/>
+            <enum name="right_to_left" value="2"/>
+            <enum name="left_to_right" value="3"/>
+        </attr>
+    </declare-styleable></file><file path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/values/color.xml" qualifiers=""><color name="user_center_text">#777777</color><color name="title_read">@color/day_mode_has_read_808080</color><color name="title_unread">@color/day_mode_text_color1_333333</color><color name="channel_select_item_bg">#ffffff</color><color name="sticky_channel_select_item_bg">#eeeeee</color><color name="left_icon_text_color_normal">#e5e9ee</color><color name="progress_image_mask_color">#4c000000</color><color name="livesource_change_bg">#dd000000</color><color name="day_mode_premium_bottom_leftcolor">#a0a8ba</color><color name="default_shadow_color">#2a000000</color><color name="default_shadowback_color">#fff</color><color name="day_mode_background_color_efefef">#efefef</color><color name="day_mode_color_gold_entry_tv">#c99351</color></file><file path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/values/dimen.xml" qualifiers=""><dimen name="text_size_sp16">16sp</dimen><dimen name="text_size_sp18">18sp</dimen><dimen name="view_pager_margin">12dp</dimen><dimen name="ad_dialog_width">280dp</dimen><dimen name="ad_dialog_height">420dp</dimen><dimen name="achievement_dialog_size">280dp</dimen><dimen name="dp_0">0dp</dimen><dimen name="dp_5">5dp</dimen></file><file path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/values/kvs.xml" qualifiers=""><string name="kv_membersrights">wscn_membersrights</string></file><file path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/values/ids.xml" qualifiers=""><item name="brightSeekBar" ns1:ignore="ResourceName" type="id"/><item name="audioSeekBar" ns1:ignore="ResourceName" type="id"/><item name="audioBehaviorView" ns1:ignore="ResourceName" type="id"/><item name="swipe_to_search_viewpager" type="id"/><item name="video_controller_id" type="id"/><item name="right_scroll" type="id"/><item name="screen_shot" type="id"/></file><file name="badge_more" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xhdpi/badge_more.webp" qualifiers="xhdpi-v4" type="drawable"/><file name="user_center_arrow" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xhdpi/user_center_arrow.webp" qualifiers="xhdpi-v4" type="drawable"/><file name="red_green_checked" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xhdpi/red_green_checked.webp" qualifiers="xhdpi-v4" type="drawable"/><file name="paid_drawable_double12_vip_buy" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/paid_drawable_double12_vip_buy.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="wexin_poster" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/wexin_poster.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="user_search_img" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/user_search_img.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="text_font_resize" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/text_font_resize.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="pop_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/pop_bg.9.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="paid_drawable_618" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/paid_drawable_618.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="share_note" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/share_note.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="global_drawable_confirm_2" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/global_drawable_confirm_2.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="global_uncache_empty" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/global_uncache_empty.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="paid_drawable_except_11_12_618_large" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/paid_drawable_except_11_12_618_large.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="share_dingding" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/share_dingding.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="signin_weibo" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/signin_weibo.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="vote_selected" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/vote_selected.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="paid_drawable_except_11_12_618" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/paid_drawable_except_11_12_618.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="global_drawable_share_footer" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/global_drawable_share_footer.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="badge_more" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/badge_more.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="theme_icon_follow" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/theme_icon_follow.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="vote_tag_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/vote_tag_bg.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="global_drawable_artich_with_audio" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/global_drawable_artich_with_audio.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="paid_drawable_double11_large" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/paid_drawable_double11_large.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="pay" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/pay.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="operation_copy" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/operation_copy.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="signin_qq" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/signin_qq.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="video_media_control_play" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/video_media_control_play.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="right_comma" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/right_comma.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="comments_list_empty" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/comments_list_empty.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="dialog_ad_close" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/dialog_ad_close.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="global_comment_share" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/global_comment_share.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="breaking_news_more" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/breaking_news_more.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="signin_wechat" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/signin_wechat.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="paid_drawable_618_large" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/paid_drawable_618_large.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="wscn_logo_no_eng" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/wscn_logo_no_eng.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="share_wechat_favorite" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/share_wechat_favorite.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="share_more" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/share_more.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="theme_post_add_night" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/theme_post_add_night.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="global_drawable_confirm" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/global_drawable_confirm.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="global_comment_unliked" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/global_comment_unliked.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="wexin_circle_poster" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/wexin_circle_poster.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="theme_icon_unfollow" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/theme_icon_unfollow.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="user_default" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/user_default.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="auto_history" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/auto_history.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="paid_drawable_double11_vip_buy" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/paid_drawable_double11_vip_buy.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="paid_drawable_except_11_12_618_vip_buy" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/paid_drawable_except_11_12_618_vip_buy.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="paid_drawable_double12" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/paid_drawable_double12.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="operation_browser" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/operation_browser.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="paid_drawable_618_vip_buy" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/paid_drawable_618_vip_buy.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="share_unfav" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/share_unfav.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="a_like" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/a_like.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="paid_drawable_double11" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/paid_drawable_double11.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="global_drawable_live_share_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/global_drawable_live_share_bg.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="global_title_icon_member" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/global_title_icon_member.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="share_night_change" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/share_night_change.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="member_default_avatar" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/member_default_avatar.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="live_text_copy_reply_triangle" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/live_text_copy_reply_triangle.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="user_center_arrow" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/user_center_arrow.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="member_centurion_flag" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/member_centurion_flag.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="a_live_image_first" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/a_live_image_first.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="red_green_checked" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/red_green_checked.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="share_evernote" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/share_evernote.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="share_sina" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/share_sina.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="live_drawable_share_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/live_drawable_share_bg.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="premium_empty" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/premium_empty.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="default_banner" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/default_banner.jpg" qualifiers="xxhdpi-v4" type="drawable"/><file name="share_weixin_cycle" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/share_weixin_cycle.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="app_logo" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/app_logo.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="share_qq" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/share_qq.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="share_poster" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/share_poster.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="save_native" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/save_native.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="share_weixin" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/share_weixin.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="global_comment_liked" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/global_comment_liked.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="report" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/report.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="icon_round_close" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/icon_round_close.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="global_drawable_comment" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/global_drawable_comment.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="icon_member_only" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/icon_member_only.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="int_news_live_icon" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/int_news_live_icon.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="share_fav" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/share_fav.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="wx" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/wx.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="live_huoxian_list" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/live_huoxian_list.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="live_vip_pic" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/live_vip_pic.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="theme_post_add" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/theme_post_add.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="paid_drawable_double12_large" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/paid_drawable_double12_large.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="breanking_close" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/breanking_close.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="theme_pic_subscribe" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/theme_pic_subscribe.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="global_resolution_bg" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxhdpi/global_resolution_bg.webp" qualifiers="xxhdpi-v4" type="drawable"/><file name="badge_more" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-hdpi/badge_more.webp" qualifiers="hdpi-v4" type="drawable"/><file name="checkbox_setting_off" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-hdpi/checkbox_setting_off.webp" qualifiers="hdpi-v4" type="drawable"/><file name="checkbox_setting_on" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-hdpi/checkbox_setting_on.webp" qualifiers="hdpi-v4" type="drawable"/><file name="user_center_arrow" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-hdpi/user_center_arrow.webp" qualifiers="hdpi-v4" type="drawable"/><file name="red_green_checked" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-hdpi/red_green_checked.webp" qualifiers="hdpi-v4" type="drawable"/><file name="ic_vip_icon" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-hdpi/ic_vip_icon.webp" qualifiers="hdpi-v4" type="drawable"/><file name="bg_vote_left" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxxhdpi/bg_vote_left.webp" qualifiers="xxxhdpi-v4" type="drawable"/><file name="theme_article_paid_tag" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxxhdpi/theme_article_paid_tag.webp" qualifiers="xxxhdpi-v4" type="drawable"/><file name="bg_vote_right" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/drawable-xxxhdpi/bg_vote_right.webp" qualifiers="xxxhdpi-v4" type="drawable"/><file name="share_title" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/font/share_title.otf" qualifiers="" type="font"/><file name="din_pro_medium" path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/main/res/font/din_pro_medium.ttf" qualifiers="" type="font"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/zhangjianchuan/Desktop/FaQun/WallstreetGlobal/build/generated/res/resValues/debug"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CornersButton">
+        <attr format="reference|dimension" name="btn_strokeWidth"/>
+        <attr format="reference|color" name="btn_strokeColor"/>
+        <attr format="reference|boolean" name="btn_blur"/>
+        <attr format="reference|dimension" name="btn_cornerRadius"/>
+        <attr format="reference|color" name="btn_unpressColor"/>
+        <attr format="reference|color" name="btn_pressColor"/>
+        <attr format="reference|color" name="btn_text_unpressColor"/>
+        <attr format="reference|color" name="btn_text_pressColor"/>
+
+        <attr format="reference|boolean" name="use_fiance_font"/>
+
+        <attr format="reference|dimension" name="btn_leftTopRadius"/>
+        <attr format="reference|dimension" name="btn_leftBottomRadius"/>
+        <attr format="reference|dimension" name="btn_rightTopRadius"/>
+        <attr format="reference|dimension" name="btn_rightBottomRadius"/>
+    </declare-styleable><declare-styleable name="MarqueeViewStyle">
+        <attr format="integer|reference" name="mvInterval"/>
+        <attr format="integer|reference" name="mvAnimDuration"/>
+        <attr format="dimension|reference" name="mvTextSize"/>
+        <attr format="color|reference" name="mvTextColor"/>
+        <attr format="boolean" name="mvSingleLine"/>
+        <attr format="integer" name="mvMaxLines"/>
+        <attr name="mvGravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="mvDirection">
+            <enum name="bottom_to_top" value="0"/>
+            <enum name="top_to_bottom" value="1"/>
+            <enum name="right_to_left" value="2"/>
+            <enum name="left_to_right" value="3"/>
+        </attr>
+    </declare-styleable><declare-styleable name="StickyScrollView">
+        <attr format="dimension" name="stuckShadowHeight"/>
+        <attr format="reference" name="stuckShadowDrawable"/>
+    </declare-styleable><declare-styleable name="fund_radar">
+        
+        <attr format="integer" name="edge_num"/>
+        
+        <attr format="float" name="rotate_degree"/>
+        
+        <attr format="color|reference" name="radar_line_color"/>
+        
+        <attr format="dimension|reference" name="radar_line_width"/>
+        
+        <attr format="color|reference" name="radar_bg_color"/>
+        
+        <attr format="dimension|reference" name="edge_length"/>
+        
+        <attr format="integer" name="layer_num"/>
+        
+        <attr format="dimension|reference" name="text_margin_radar"/>
+    </declare-styleable><declare-styleable name="calendarSelect">
+        <attr name="select_type">
+            <enum name="single" value="1"/>
+            <enum name="mult" value="2"/>
+        </attr>
+        <attr name="locate_position">
+            <enum name="start" value="0"/>
+            <enum name="today" value="1"/>
+            <enum name="end" value="2"/>
+        </attr>
+    </declare-styleable><declare-styleable name="MaxHeightRv">
+        <attr format="dimension" name="maxHeight"/>
+    </declare-styleable><declare-styleable name="MobileAndWeiboView">
+        <attr format="color|reference" name="textcolor"/>
+        <attr format="color|reference" name="leftIconColor"/>
+        <attr format="color|reference" name="rightIconColor"/>
+        <attr format="string" name="leftTextStr"/>
+        <attr format="string" name="rightTextStr"/>
+        <attr format="string|reference" name="leftIconText"/>
+        <attr format="string|reference" name="rightIconText"/>
+    </declare-styleable><declare-styleable name="SlideDetailsLayout">
+        
+        <attr format="float" name="percent"/>
+        
+        <attr format="integer" name="duration"/>
+        
+        <attr format="enum" name="default_panel">
+            <enum name="front" value="0"/>
+            <enum name="behind" value="1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="SetItem">
+        <attr name="type">
+            <enum name="none" value="0"/>
+            <enum name="normal" value="1"/>
+            <enum name="checkbox" value="2"/>
+            <enum name="checked" value="3"/>
+        </attr>
+        <attr format="boolean" name="leftImageDrawable"/>
+        <attr format="string" name="leftText"/>
+        <attr format="string" name="rightText"/>
+        <attr format="boolean" name="isChecked"/>
+        <attr format="reference|color" name="arrowResId"/>
+        <attr format="integer" name="checkboxId"/>
+        <attr format="dimension" name="leftTextSize"/>
+        <attr format="dimension" name="rightTextSize"/>
+        <attr format="dimension" name="tvLeftMargin"/>
+        <attr format="dimension" name="tvRightMargin"/>
+        <attr format="color" name="leftTextColor"/>
+        <attr format="color" name="rightTextColor"/>
+    </declare-styleable><declare-styleable name="settingItemETview">
+        <attr format="string" name="leftTextValue"/>
+        <attr format="string" name="hintText"/>
+    </declare-styleable><declare-styleable name="RecyclerViewScrollBar">
+        <attr format="reference|color" name="rsbTrackDrawable"/>
+        <attr format="reference|color" name="rsbThumbDrawable"/>
+        <attr format="dimension" name="rsbRadio"/>
+        <attr format="color" name="rsbTrackColor"/>
+        <attr format="color" name="rsbThumbColor"/>
+        <attr format="enum" name="rsbOrientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="ProgressImageView">
+        <attr format="integer" name="pi_progress"/>
+        <attr format="color" name="pi_mask_color"/>
+    </declare-styleable><declare-styleable name="virtualLine">
+        <attr format="boolean" name="isHorizontal"/>
+        <attr format="color|reference" name="lineColor"/>
+        <attr format="dimension" name="dashWidth"/>
+        <attr format="dimension" name="dashGap"/>
+    </declare-styleable></configuration></mergedItems></merger>

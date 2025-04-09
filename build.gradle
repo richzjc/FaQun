@@ -1,0 +1,52 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: "./packer/packer.gradle"
+buildscript {
+    ext.kotlin_version = '2.1.0'
+
+    repositories {
+        maven {
+            url "https://mvn.mob.com/android"
+        }
+
+        google()
+        mavenCentral()
+        maven {
+            // central仓和jcenter仓的聚合仓
+            url "https://maven.aliyun.com/repository/public"
+        }
+
+        maven { url 'https://developer.huawei.com/repo/' }
+        maven { url 'https://repo1.maven.org/maven2/' }
+
+        Properties properties = new Properties()
+        properties.load(new File(rootDir.getAbsolutePath() + "/local.properties").newDataInputStream())
+        maven {
+            credentials {
+                username properties.getProperty("mavenUser")
+                password properties.getProperty("mavenPwd")
+            }
+            url 'https://maven.wscn.net/repository/mobile-public/'
+        }
+
+        maven {url 'https://developer.hihonor.com/repo'}
+    }
+
+    def currentVersion = "10.18.0"
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.7.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.0"
+        classpath 'me.tatarka:gradle-retrolambda:3.7.0'
+        classpath "com.tencent.bugly:tinker-support:1.2.3"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    isGoogle = false
+}

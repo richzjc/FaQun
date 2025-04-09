@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="base_add_reminder_success">添加提醒成功！</string>
+    <string name="base_copied_coupons_success">已複製優惠碼</string>
+    <string name="base_original_price">原價</string>
+    <string name="base_after_preferential_treatment">優惠後</string>
+    <string name="base_cancel_text">取消</string>
+    <string name="base_payment_text">支付</string>
+    <string name="base_open_all_text">展開</string>
+    <string name="base_loading_text">正在加載…</string>
+    <string name="base_loading_error">加載失敗</string>
+    <string name="base_delete_text">删除</string>
+    <string name="base_no_content">暫無內容</string>
+    <string name="base_no_network">暫無網絡</string>
+    <string name="base_no_network_and_click_agian">網絡好像不太好請點擊重新加載</string>
+    <string name="base_click_and_reload">請點擊頁面任意區域重新加載</string>
+    <string name="base_all_load_completed">沒有更多內容</string>
+    <string name="base_click_and_load_more">點擊加載更多</string>
+    <string name="base_trump_says_can_t_into">數據加載失敗</string>
+    <string name="base_share_to_friend">分享給朋友</string>
+    <string name="base_your_screenhot_saved_album">你的截圖已保存至系統相册</string>
+    <string name="base_total">全文 </string>
+
+    <string name="base_follow_system">跟隨系統</string>
+    <string name="base_night_normal">淺色</string>
+    <string name="base_night_night">深色</string>
+</resources>

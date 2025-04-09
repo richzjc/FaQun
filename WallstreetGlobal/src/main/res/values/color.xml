@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="user_center_text">#777777</color>
+
+    <color name="title_read">@color/day_mode_has_read_808080</color>
+    <color name="title_unread">@color/day_mode_text_color1_333333</color>
+    <color name="channel_select_item_bg">#ffffff</color>
+    <color name="sticky_channel_select_item_bg">#eeeeee</color>
+    <color name="left_icon_text_color_normal">#e5e9ee</color>
+    <color name="progress_image_mask_color">#4c000000</color>
+
+
+    <color name="livesource_change_bg">#dd000000</color>
+    <color name="day_mode_premium_bottom_leftcolor">#a0a8ba</color>
+
+    <color name="default_shadow_color">#2a000000</color>
+    <color name="default_shadowback_color">#fff</color>
+
+    <color name="day_mode_background_color_efefef">#efefef</color>
+    <color name="day_mode_color_gold_entry_tv">#c99351</color>
+</resources>

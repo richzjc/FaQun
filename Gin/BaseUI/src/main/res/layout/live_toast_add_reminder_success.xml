@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:minWidth="134dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/live_add_reminder_success"
+    android:gravity="center_horizontal"
+    >
+    <com.wallstreetcn.baseui.customView.IconView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/margin_dp20"
+        android:text="&#xe66d;"
+        android:textSize="@dimen/text_size_27"
+        />
+
+    <com.wallstreetcn.baseui.widget.CustomTextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/base_add_reminder_success"
+        android:paddingLeft="@dimen/margin_dp10"
+        android:paddingRight="@dimen/margin_dp10"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_15"
+        android:layout_marginTop="@dimen/margin_dp10"
+        android:layout_marginBottom="@dimen/margin_dp15"
+        />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+
+WallstreetGlobal/src/main/res/layout/news_detail_bottom_view.xml
+WallstreetGlobal/src/main/res/layout/order_view_buy_num.xml
+WallstreetGlobal/src/main/res/layout/paid_dialog_premium_bottom.xml
+WallstreetGlobal/src/main/res/layout/paid_view_spec_top.xml
+WallstreetGlobal/src/main/res/layout/paid_view_unsubscribe_custom.xml
+WallstreetGlobal/src/main/res/layout/pop_my_comments.xml
+WallstreetGlobal/src/main/res/layout/search_item_composite_header.xml
+WallstreetGlobal/src/main/res/layout/set_view_offline_empty.xml
+WallstreetGlobal/src/main/res/layout/theme_view_discuss_share_radiobtn.xml
+WallstreetGlobal/src/main/res/values/color.xml
+WallstreetGlobal/src/main/res/values/styles.xml

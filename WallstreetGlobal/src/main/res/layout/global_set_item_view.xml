@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingTop="@dimen/margin_dp15"
+    android:paddingBottom="@dimen/margin_dp15">
+
+    <com.wallstreetcn.imageloader.WscnImageView
+        android:id="@+id/imageLeft"
+        android:layout_width="@dimen/margin_dp20"
+        android:layout_height="@dimen/margin_dp20"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_dp10"
+        android:textColor="@color/day_mode_text_color1_333333"
+        android:textSize="14sp" />
+
+    <com.wallstreetcn.baseui.widget.CustomTextView
+        android:id="@+id/tvLeft"
+        style="@style/set_item_leftTextView"
+        android:layout_toRightOf="@+id/imageLeft"
+        android:textColor="@color/day_mode_text_color1_333333"
+        app:fontScaleResource="true"
+        android:textSize="14sp" />
+
+
+    <com.wallstreetcn.baseui.widget.CustomTextView
+        android:id="@+id/tvLeftDes"
+        style="@style/set_item_leftTextView"
+        android:layout_marginRight="@dimen/margin_dp80"
+        android:layout_toRightOf="@+id/tvLeft"
+        android:gravity="center_vertical"
+        app:fontScaleResource="true"
+        android:textColor="@color/day_mode_text_color3_999999"
+        android:textSize="10sp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/redDot"
+        style="@style/set_item_redDot"
+        android:layout_toRightOf="@id/tvLeft" />
+
+    <com.rm.rmswitch.RMSwitch
+        android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_dp12"
+        android:visibility="gone"
+        app:forceAspectRatio="false"
+        app:switchBkgCheckedColor="@color/day_mode_theme_color_1478f0"
+        app:switchBkgNotCheckedColor="@color/day_mode_color_dee6eb"
+        app:switchToggleCheckedColor="@color/white"
+        app:switchToggleNotCheckedColor="@color/day_mode_color_c2cfd7" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        style="@style/set_item_arrow" />
+
+    <ImageView
+        android:id="@+id/checked"
+        style="@style/set_item_checked"
+        android:scaleType="fitCenter" />
+
+    <com.wallstreetcn.baseui.widget.CustomTextView
+        android:id="@+id/tvRight"
+        style="@style/set_item_rightTextView"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_dp40"
+        android:textColor="@color/day_mode_text_color1_333333"
+        android:textSize="14sp" />
+
+</RelativeLayout>

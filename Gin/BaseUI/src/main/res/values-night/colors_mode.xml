@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="day_mode_title_bar_icon_start_color">#ffffff</color>
+    <color name="day_mode_loading_desc_color">#999999</color>
+    <color name="day_mode_title_bar_icon_end_color">#999999</color>
+    <color name="day_mode_text_dark_color">#666666</color>
+    <color name="day_mode_text_dark_light_color">#999999</color>
+    <color name="day_mode_time_author">#666666</color>
+    <color name="day_mode_toolbar_color">#121212</color>
+    <color name="day_mode_toolbar_dark_color">#222222</color>
+    <color name="day_mode_background_color_dark">#1A1A1A</color>
+    <color name="day_mode_card_background_color">#2d2d2d</color>
+    <color name="day_mode_color_002d2d2d">#002d2d2d</color>
+    <color name="day_mode_background_color_transparent">#80222222</color>
+    <color name="day_mode_bg_dark_color">#222222</color>
+    <color name="day_mode_text_symbol_color">#666666</color>
+    <color name="day_mode_tab_color">#666666</color>
+    <color name="day_mode_text_color_666666_2">#999999</color>
+    <color name="day_mode_text_color_808080">#666666</color>
+    <color name="day_mode_text_color_808080_2">#999999</color>
+    <color name="day_mode_backround_1a1482f0">#1a4595E6</color>
+    <color name="day_mode_background_color_f8f8f8">#333333</color>
+    <color name="day_mode_background_color_fafafa">#343434</color>
+    <color name="day_mode_background_color_e5d2ae">#424242</color>
+    <color name="day_mode_color_fbfbfb">#191919</color>
+    <color name="day_mode_background_color_buy_num">#191919</color>
+    <color name="day_mode_background_color_buy_num_border">#333333</color>
+    <color name="day_mode_color_e6e6e6">#333333</color>
+    <color name="day_mode_background_color_eeeeee">#333333</color>
+    <color name="day_mode_color_cccccc">#333333</color>
+    <color name="day_mode_color_ffffff">#333333</color>
+    <color name="day_mode_color_b8b8b8">#666666</color>
+    <!--<color name="day_mode_live_expand_color">#4595e6</color>-->
+    <color name="day_mode_color_f7f2e8">#333333</color>
+    <color name="day_mode_news_comment_color">#333333</color>
+    <color name="day_mode_background_buy">#333333</color>
+    <color name="day_mode_text_color_dbdbdb">#dcdcdc</color>
+    <color name="day_mode_color_f4f5f9">#333333</color>
+
+    <color name="day_mode_color_9af7f2e8">#2c2823</color>
+    <color name="day_mode_color_cca572">#cda674</color>
+    <color name="day_mode_color_cb9525">#cb9525</color>
+    <color name="day_text_color_d9ad64">#c78e49</color>
+    <color name="day_mode_color_faf7f1">#00000000</color>
+    <color name="day_mode_color_dbdbdb">#999999</color>
+    <color name="day_mode_color_dbdbdb_day">#333333</color>
+    <color name="day_mode_color_d4d4d4">#666666</color>
+    <color name="day_mode_color_eef7ff">#2e323a</color>
+
+    <color name="day_background_color_member_rights">#2d2d2d</color>
+
+    <color name="day_color_9da6b8">#666666</color>
+    <color name="day_color_9b6a18">#d9ad64</color>
+    <color name="day_color_f8f8f8">#333333</color>
+    <color name="day_color_fbfbfb">#666666</color>
+    <color name="day_color_faf6f1">#303030</color>
+
+
+    <color name="day_mode_text_color_996e24">#d9ad64</color>
+    <color name="day_mode_text_color_c7b188">#666666</color>
+    <color name="day_mode_text_color_996e24_dark">#999999</color>
+    <color name="day_mode_later_read_bg_color">#66000000</color>
+
+    <color name="day_mode_text_color_blue">#999999</color>
+    <color name="day_mode_color_00f7eedf">#00c0655b</color>
+    <color name="day_mode_color_ffc3b3">#853229</color>
+    <color name="day_mode_color_a04b4b">#a04b4b</color>
+    <color name="day_mode_color_000000">#50000000</color>
+    <color name="day_mode_shadow_color">#00000033</color>
+    <color name="day_mode_shadow_color_main_push">#00000033</color>
+    <color name="day_mode_later_read_shadow_color">#8a000033</color>
+
+    <color name="day_mode_shadow_backgroud_color">#333333</color>
+    <color name="day_mode_color_66ffe6e7">#333333</color>
+    <color name="day_mode_color_7d3b3f">#999999</color>
+    <color name="day_mode_color_f1f8ff">#262f3a</color>
+    <color name="day_mode_color_323232">#999999</color>
+    <color name="day_mode_color_calendar_ipo_line">#222222</color>
+    <color name="day_mode_color_home_calendar_ipo_line">#333333</color>
+    <color name="day_mode_color_topic_calendar_dot_color">#222222</color>
+    <color name="day_mode_color_4f4f4f">#999999</color>
+    <color name="day_mode_color_bdf5f5f5">#80ffffff</color>
+
+    <color name="day_color_e1efff" >#4594E6</color>
+</resources>

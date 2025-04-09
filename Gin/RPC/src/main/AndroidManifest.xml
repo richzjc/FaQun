@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <service android:name=".service.ResourcesDownloadService" />
+        <!-- 添加应用自身的灯塔appkey，如0I000LT6GW1YGCP7-->
+        <meta-data
+            android:name="APPKEY_DENGTA"
+            android:value="0I000E8F2223QQC0" />
+        <!-- DNS接收网络切换广播 -->
+    </application>
+
+</manifest>

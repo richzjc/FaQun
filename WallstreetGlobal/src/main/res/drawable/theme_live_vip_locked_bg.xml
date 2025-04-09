@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+
+    <corners android:radius="@dimen/margin_dp5"/>
+    <padding
+        android:bottom="@dimen/margin_dp5"
+        android:left="@dimen/margin_dp10"
+        android:right="@dimen/margin_dp8"
+        android:top="@dimen/margin_dp5"/>
+    <gradient
+        android:endColor="@color/day_mode_color_f1c192"
+        android:startColor="@color/day_mode_color_f9e2c4"/>
+</shape>

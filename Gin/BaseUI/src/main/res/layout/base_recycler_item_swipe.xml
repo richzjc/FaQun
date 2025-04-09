@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tubb.smrv.SwipeHorizontalMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sml="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    sml:sml_auto_open_percent="0.2"
+    sml:sml_scroller_duration="250"
+    sml:sml_scroller_interpolator="@android:anim/bounce_interpolator">
+
+    <com.wallstreetcn.baseui.widget.RecyclerViewLayout
+        android:id="@id/smContentView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@id/smMenuViewRight"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/ripple_swipe_item"
+        android:gravity="center">
+
+        <com.wallstreetcn.baseui.widget.CustomTextView
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/base_delete_text"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+</com.tubb.smrv.SwipeHorizontalMenuLayout>

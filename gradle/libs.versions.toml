@@ -1,0 +1,204 @@
+[versions]
+ngVersion = "1.1.7"
+kotlin = "2.1.0"
+core_ktx = "1.10.1"
+activity_ktx = "1.8.0"
+anko = "0.10.8"
+viewmodel = "2.2.0"
+cardview = "1.0.0"
+appcompat = "1.6.1"
+design = "1.5.0"
+palette = "1.0.0"
+emoji = "1.0.0"
+constraintLayout = "1.1.2"
+work = "2.7.0"
+viewpager2 = "1.1.0"
+annotation = "1.6.0"
+router = "1.0.0"
+multidex = "2.0.1"
+fastjson = "1.1.68.android"
+qrgen = "3.0.1"
+videocache = "v3.0.5"
+stetho = "1.6.0"
+hmspush = "6.11.0.300"
+rxandroid = "2.0.2"
+rxjava = "2.1.14"
+rxpermission = "1.1.6"
+rxactivityresult = "1.0.1"
+luban = "1.1.8"
+galleryLib = "1.0.5"
+easyPhoto = "1.0.7"
+ijkplayerLib = "0.5.2"
+imageloaderLib = "2.4.5"
+volleyLib = "0.6.5.5"
+downloadLib = "1.0.14"
+okhttp3 = "4.9.0"
+alipay = "15.5.7"
+growingio = "6.8.2"
+consecutiveScroller = "4.6.4"
+lottie = "6.5.2"
+oppoPush = "3.1.0"
+honorPush = "8.0.12.307"
+stickyHeader = "1.0.6"
+shadowLib = "1.0.2"
+observerLib = "1.0.2"
+dialogViewLayout = "1.0.2"
+intent_compiler = "1.0.6"
+intentargs = "1.0.7"
+netcompiler = "1.1.2"
+netchange = "1.1.2"
+tabLayout = "1.0.8"
+gestureView = "2.8.3"
+ratingbar = "0.1.5"
+slidinguppanel = "3.4.0"
+pulltorefresh = "2.0.0"
+pdfview = "3.0.0-beta.5"
+rwidget = "1.0.1"
+chipslayoutmanager = "0.3.7"
+keyboard = "1.6.2"
+swipmenurv = "5.4.5"
+recyclerViewItemClickSupport = "1.0.1"
+expandrecyclerView = "2.1.1"
+horus = "3.8.4.37"
+aliyunut = "5.4.4"
+libphoneNumber = "8.13.48"
+googleAutoService = "1.1.1"
+protobufJava = "3.22.3"
+splashScreen = "1.0.0"
+autofittextview = "0.2.1"
+wangavi = "2.1.3"
+materialEditText = "2.1.4"
+glide = "4.13.0"
+billing = "6.0.1"
+wechat = "6.8.0"
+ijkplayerexo2 = "0.8.8"
+pullRefresh = "0.2.0"
+circleProgressbar = "1.1.1"
+pickerView = "4.1.9"
+flycotablayout = "2.1.2"
+coroutinuesCore = "1.3.5"
+routerAnnotation = "1.0.0"
+hicar = "12.0.2.420"
+rmswitch = "1.2.2"
+photoView = "2.3.0"
+subsamplingScaleImage = "3.10.0"
+keyboardVsibilityEvent = "2.3.0"
+flowLayout = "1.1.2"
+newbieGuide = "v2.3.0"
+
+[libraries]
+rmswitch = { group = "com.rm", name = "rmswitch", version.ref = "rmswitch" }
+photoView = { group = "com.github.chrisbanes", name = "PhotoView", version.ref = "photoView" }
+subsamplingScaleImage = { group = "com.davemorrissey.labs", name = "subsampling-scale-image-view-androidx", version.ref = "subsamplingScaleImage" }
+keyboardVsibilityEvent = { group = "net.yslibrary.keyboardvisibilityevent", name = "keyboardvisibilityevent", version.ref = "keyboardVsibilityEvent" }
+flowLayout = { group = "com.hyman", name = "flowlayout-lib", version.ref = "flowLayout" }
+newbieGuide = { group = "com.github.huburt-Hu", name = "NewbieGuide", version.ref = "newbieGuide" }
+
+hicar = { group = "com.wallstreetcn.thirdlib", name = "hicar_carbase_engine-sdk-android", version.ref = "hicar" }
+routerAnnotation = { group = "com.github.richzjc", name = "router_annotation", version.ref = "routerAnnotation" }
+coroutinuesCore = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutinuesCore" }
+coroutinuesAndroid = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutinuesCore" }
+
+
+flycoTablayout = { group = "com.flyco.tablayout", name = "FlycoTabLayout_Lib", version.ref = "flycotablayout" }
+androidPickerView = { group = "com.contrarywind", name = "Android-PickerView", version.ref = "pickerView" }
+
+circleProgressbar = { group = "com.dinuscxj", name = "circleprogressbar", version.ref = "circleProgressbar" }
+ijkplayerexo2 = { group = "org.dync.kathline", name = "ijkplayer-exo2", version.ref = "ijkplayerexo2" }
+pullRefresh = { group = "com.github.bxunzhao", name = "PullRefresh", version.ref = "pullRefresh" }
+
+billing = { group = "com.android.billingclient", name = "billing", version.ref = "billing" }
+wechat = { group = "com.tencent.mm.opensdk", name = "wechat-sdk-android-without-mta", version.ref = "wechat" }
+
+autofittextview = { group = "me.grantland", name = "autofittextview", version.ref = "autofittextview" }
+wangavi = { group = "com.wang.avi", name = "library", version.ref = "wangavi" }
+materialEditText = { group = "com.rengwuxian.materialedittext", name = "library", version.ref = "materialEditText" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+
+
+splashScreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashScreen" }
+protobufJava = { group = "com.google.protobuf", name = "protobuf-java", version.ref = "protobufJava" }
+libphoneNumber = { group = "com.googlecode.libphonenumber", name = "libphonenumber", version.ref = "libphoneNumber" }
+googleAutoService = { group = "com.google.auto.service", name = "auto-service", version.ref = "googleAutoService" }
+
+swipemenurecyclerview = { group = "com.tubb.smrv", name = "swipemenu-recyclerview", version.ref = "swipmenurv" }
+recycleritemclicksupport = { group = "com.rohit.recycleritemclicksupport", name = "recycleritemclicksupport", version.ref = "recyclerViewItemClickSupport" }
+expandrecyclerview = { group = "com.bignerdranch.android", name = "expandablerecyclerview", version.ref = "expandrecyclerView" }
+horus = { group = "com.wallstreetcn", name = "horus", version.ref = "horus" }
+aliyunUt = { group = "com.aliyun.ams", name = "alicloud-android-ut", version.ref = "aliyunut" }
+gestureviews = { group = "com.alexvasilkov", name = "gesture-views", version.ref = "gestureView" }
+ratingbar = { group = "com.iarcuschin", name = "simpleratingbar", version.ref = "ratingbar" }
+slidinguppanel = { group = "com.sothree.slidinguppanel", name = "library", version.ref = "slidinguppanel" }
+pulltorefresh = { group = "com.scwang.smart", name = "refresh-layout-kernel", version.ref = "pulltorefresh" }
+pdfView = { group = "com.github.barteksc", name = "android-pdf-viewer", version.ref = "pdfview" }
+rwidget = { group = "com.ruffian.library", name = "RWidgetHelper", version.ref = "rwidget" }
+chipslayoutmanager = { group = "com.beloo.widget", name = "ChipsLayoutManager", version.ref = "chipslayoutmanager" }
+keyboard = { group = "cn.dreamtobe.kpswitch", name = "library", version.ref = "keyboard" }
+
+
+stickyheader = { group = "com.github.richzjc", name = "StickyHeader", version.ref = "stickyHeader" }
+shadowLib = { group = "com.github.richzjc", name = "ShadowLib", version.ref = "shadowLib" }
+observerLib = { group = "com.github.richzjc", name = "LiveDataLib", version.ref = "observerLib" }
+dialogViewLayout = { group = "com.github.richzjc", name = "dialog_view", version.ref = "dialogViewLayout" }
+intentargs_compiler = { group = "com.github.richzjc", name = "intentArgs_compiler", version.ref = "intent_compiler" }
+intentargs = { group = "com.github.richzjc", name = "intentargs", version.ref = "intentargs" }
+net_compiler = { group = "com.github.richzjc", name = "netChange_compiler", version.ref = "netcompiler" }
+net_change = { group = "com.github.richzjc", name = "network_change", version.ref = "netchange" }
+tabLayout = { group = "com.github.richzjc", name = "Tablayout", version.ref = "tabLayout" }
+
+luban = { group = "top.zibin", name = "Luban", version.ref = "luban" }
+galleryLib = { group = "com.github.richzjc", name = "RxGalleryFinal", version.ref = "galleryLib" }
+easyPhoto = { group = "com.github.richzjc", name = "easyPhotos", version.ref = "easyPhoto" }
+ijkPlayerLib = { group = "com.github.bxunzhao", name = "IjkLib", version.ref = "ijkplayerLib" }
+imageLoaderLib = { group = "com.github.leifzhang", name = "ImageLoader", version.ref = "imageloaderLib" }
+volleyLib = { group = "com.github.leifzhang", name = "VolleyLib", version.ref = "volleyLib" }
+downloadLib = { group = "com.github.richzjc", name = "wscnDownloadLib", version.ref = "downloadLib" }
+rxVolleyAdapter = { group = "com.github.leifzhang", name = "Rx2Adapter", version.ref = "volleyLib" }
+okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp3" }
+alipay = { group = "com.github.lec", name = "alipaysdk-noutdid", version.ref = "alipay" }
+growingIo = { group = "com.sensorsdata.analytics.android", name = "SensorsAnalyticsSDK", version.ref = "growingio" }
+consecutiveScroller = { group = "com.github.donkingliang", name = "ConsecutiveScroller", version.ref = "consecutiveScroller" }
+lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
+oppoPush = { group = "com.wallstreetcn.thirdlib", name = "com_heytap_msp", version.ref = "oppoPush" }
+honorPush = { group = "com.hihonor.mcs", name = "push", version.ref = "honorPush" }
+
+
+stetho = { group = "com.facebook.stetho", name = "stetho", version.ref = "stetho" }
+stethoOkhttp = { group = "com.facebook.stetho", name = "stetho-okhttp3", version.ref = "stetho" }
+hmspush = { group = "com.huawei.hms", name = "push", version.ref = "hmspush" }
+rxandroid = { group = "io.reactivex.rxjava2", name = "rxandroid", version.ref = "rxandroid" }
+rxjava = { group = "io.reactivex.rxjava2", name = "rxjava", version.ref = "rxjava" }
+rxpermission = { group = "com.github.richzjc", name = "rxPermissionNew", version.ref = "rxpermission" }
+rxactivityresult = { group = "com.github.richzjc", name = "RxActivityResult", version.ref = "rxactivityresult" }
+
+routerCompiler = { group = "com.github.richzjc", name = "router_compiler", version.ref = "router" }
+multDex = { group = "androidx.multidex", name = "multidex", version.ref = "multidex" }
+fastjson = { group = "com.alibaba", name = "fastjson", version.ref = "fastjson" }
+qrgen = { group = "com.github.kenglxn.QRGen", name = "android", version.ref = "qrgen" }
+videocache = { group = "com.github.bxunzhao", name = "AndroidVideoCache", version.ref = "videocache" }
+
+viewmodel = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "viewmodel" }
+cardView = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+design = { group = "com.google.android.material", name = "material", version.ref = "design" }
+palette = { group = "androidx.palette", name = "palette", version.ref = "palette" }
+emoji = { group = "androidx.emoji", name = "emoji", version.ref = "emoji" }
+emojiBundle = { group = "androidx.emoji", name = "emoji-bundled", version.ref = "emoji" }
+constraintLayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintLayout" }
+work = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "work" }
+viewpager2 = { group = "androidx.viewpager2", name = "viewpager2", version.ref = "viewpager2" }
+annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
+
+ngPacker = { group = "com.meituan.android.walle", name = "library", version.ref = "ngVersion" }
+stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk8", version.ref = "kotlin" }
+ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core_ktx" }
+actvity_ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity_ktx" }
+kotlin_reflect = { group = "org.jetbrains.kotlin", name = "kotlin-reflect", version.ref = "kotlin" }
+anko = { group = "org.jetbrains.anko", name = "anko", version.ref = "anko" }
+
+
+
+
+
+
+

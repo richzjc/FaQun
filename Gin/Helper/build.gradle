@@ -1,0 +1,69 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply from: '../../basic_ktx.gradle'
+
+android {
+    compileSdk ANDROID_TARGET_VERSION as int
+    namespace 'com.wallstreetcn.helper'
+
+    defaultConfig {
+        minSdk ANDROID_MIN_VERSION as int
+        targetSdk ANDROID_TARGET_VERSION as int
+        versionCode 1
+        versionName "1.0"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+
+        kotlinOptions.freeCompilerArgs += ['-module-name', "${GROUP_ID}.Helper"]
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    buildFeatures {
+        buildConfig = true // 启用 BuildConfig 类的生成
+    }
+
+    buildTypes {
+        release {
+            buildConfigField "boolean", "IS_NEED_HUAWEI", "${getIsNeedHuaWei()}"
+        }
+
+        debug {
+            buildConfigField "boolean", "IS_NEED_HUAWEI", "${getIsNeedHuaWei()}"
+        }
+    }
+}
+
+boolean getIsNeedHuaWei(){
+    return project.ext.isNeedHW
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api libs.appcompat
+    api libs.rxandroid
+    api libs.growingIo
+    implementation libs.ngPacker
+    implementation libs.okhttp3
+    implementation libs.stdlib
+    implementation libs.rxpermission
+    api libs.wechat
+}
+
+repositories {
+    mavenCentral()
+}

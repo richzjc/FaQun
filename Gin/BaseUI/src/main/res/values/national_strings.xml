@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="base_add_reminder_success">添加提醒成功！</string>
+    <string name="base_copied_coupons_success">已复制优惠码</string>
+    <string name="base_original_price">原价</string>
+    <string name="base_after_preferential_treatment">优惠后</string>
+    <string name="base_cancel_text">取消</string>
+    <string name="base_payment_text">支付</string>
+    <string name="base_open_all_text">展开</string>
+    <string name="base_loading_text">正在加载...</string>
+    <string name="base_loading_error">加载失败</string>
+    <string name="base_delete_text">删除</string>
+    <string name="base_no_content">暂无内容</string>
+    <string name="base_no_network">暂无网络</string>
+    <string name="base_no_network_and_click_agian">网络好像不太好 请点击重新加载</string>
+    <string name="base_click_and_reload">请点击页面任意区域重新加载</string>
+    <string name="base_all_load_completed">没有更多内容</string>
+    <string name="base_click_and_load_more">点击加载更多</string>
+    <string name="base_trump_says_can_t_into">数据加载失败</string>
+    <string name="base_share_to_friend">分享给朋友</string>
+    <string name="base_your_screenhot_saved_album">你的截屏已保存至系统相册</string>
+    <string name="to_expand_hint"> 展开 </string>
+    <string name="to_shrink_hint"> 收起 </string>
+    <string name="base_total">全文 </string>
+
+    <string name="base_follow_system">跟随系统</string>
+    <string name="base_night_normal">浅色</string>
+    <string name="base_night_night">深色</string>
+</resources>

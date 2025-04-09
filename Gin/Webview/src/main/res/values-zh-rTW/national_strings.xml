@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="webview_goto_another_app">您是否確定前往其他APP？</string>
+<string name="webview_confirm_text">確認</string>
+<string name="webview_cancel_text">取消</string>
+<string name="webview_wall_sits_app">華爾街見聞</string>
+<string name="webview_invite_discuss_wits">邀你參與#見識-Wits#的話題討論</string>
+</resources>

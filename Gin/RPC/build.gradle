@@ -1,0 +1,62 @@
+apply plugin: 'com.android.library'
+apply from: '../../basic_ktx.gradle'
+
+android {
+    compileSdk ANDROID_TARGET_VERSION as int
+    namespace 'com.wallstreetcn.rpc'
+    defaultConfig {
+        minSdk ANDROID_MIN_VERSION as int
+        targetSdk ANDROID_TARGET_VERSION as int
+        versionCode 1
+        versionName "1.0"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+    viewBinding {
+        enabled = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+        kotlinOptions.freeCompilerArgs += ['-module-name', "${GROUP_ID}.RPC"]
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api libs.fastjson
+    api libs.appcompat
+    api libs.volleyLib
+    api libs.okhttp3
+    api libs.downloadLib
+    api libs.rxVolleyAdapter
+    api libs.rxandroid
+    api libs.intentargs
+    compileOnly libs.stetho
+    compileOnly libs.stethoOkhttp
+    api libs.stdlib
+    api libs.coroutinuesCore
+    api libs.coroutinuesAndroid
+    if (Boolean.parseBoolean(PROJECT_COMPILE)) {
+        api project(":Helper")
+    } else {
+        api "com.wallstreetcn:Helper:${HELPER_VERSION}"
+    }
+}
